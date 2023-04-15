@@ -1,27 +1,67 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHistory } from "vue-router";
+import HomeView from "../views/HomeView.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: HomeView
+    path: "/",
+    name: "home",
+    component: HomeView,
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    path: "/about",
+    name: "about",
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-    }
-  }
-]
+      return import(/* webpackChunkName: "about" */ "../views/AboutView.vue");
+    },
+  },
+  {
+    path: "/blog",
+    name: "blog",
+    component: function () {
+      return import(/* webpackChunkName: "blog" */ "../views/BlogView.vue");
+    },
+  },
+  {
+    path: "/portfolio",
+    name: "portfolio",
+    component: function () {
+      return import(
+        /* webpackChunkName: "portfolio" */ "../views/PortfolioView.vue"
+      );
+    },
+  },
+  {
+    path: "/services",
+    name: "services",
+    component: function () {
+      return import(
+        /* webpackChunkName: "services" */ "../views/ServicesView.vue"
+      );
+    },
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: function () {
+      return import(
+        /* webpackChunkName: "contact" */ "../views/ContactView.vue"
+      );
+    },
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "not-found",
+    component: function () {
+      return import(
+        /* webpackChunkName: "not-found" */ "../views/NotFoundView.vue"
+      );
+    },
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
