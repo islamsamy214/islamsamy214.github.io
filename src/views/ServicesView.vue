@@ -3,16 +3,16 @@
     <div class="KW_progressBar"></div>
   </div>
   <div class="page">
-    <nav id="colorlib-main-nav" role="navigation">
-      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"
+    <nav id="islam-main-nav" role="navigation">
+      <a href="#" class="js-islam-nav-toggle islam-nav-toggle active"
         ><i></i
       ></a>
-      <div class="js-fullheight colorlib-table">
+      <div class="js-fullheight islam-table">
         <div
           class="img"
           style="background-image: url(images/author-2.jpg)"
         ></div>
-        <div class="colorlib-table-cell js-fullheight">
+        <div class="islam-table-cell js-fullheight">
           <div class="row no-gutters">
             <div class="col-md-12 text-center">
               <h1 class="mb-4">
@@ -56,13 +56,13 @@
       </div>
     </nav>
 
-    <div id="colorlib-page">
+    <div id="islam-page">
       <header>
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="colorlib-navbar-brand">
-                <a class="colorlib-logo" href="index.html"
+              <div class="islam-navbar-brand">
+                <a class="islam-logo" href="index.html"
                   ><span
                     class="logo-img"
                     style="background-image: url(images/person_1.jpg)"
@@ -70,7 +70,7 @@
                   >Beckham Muff</a
                 >
               </div>
-              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"
+              <a href="#" class="js-islam-nav-toggle islam-nav-toggle"
                 ><i></i
               ></a>
             </div>
@@ -147,12 +147,12 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <!-- Link back to islam can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy; All rights reserved | This template is made
                 with
                 <i class="icon-heart" aria-hidden="true" style="color: red"></i>
-                by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                by <a href="https://islam.com" target="_blank">islam</a>
+                <!-- Link back to islam can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>
           </div>
