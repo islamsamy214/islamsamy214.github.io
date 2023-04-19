@@ -26,9 +26,21 @@ const routes = [
     name: "portfolio",
     component: function () {
       return import(
-        /* webpackChunkName: "portfolio" */ "../views/PortfolioView.vue"
+        /* webpackChunkName: "portfolio" */ "../views/portfolio/PortfolioView.vue"
       );
     },
+    children: [
+      {
+        path: "",
+        name: "portfolio-single",
+        component: function () {
+          return import(
+            /* webpackChunkName: "portfolio-home" */ "../views/portfolio/PortfolioSingleView.vue"
+          );
+        },
+        params: true,
+      },
+    ],
   },
   {
     path: "/services",
