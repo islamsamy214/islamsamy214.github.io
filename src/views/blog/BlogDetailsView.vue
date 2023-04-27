@@ -10,7 +10,7 @@
       <div class="js-fullheight islam-table">
         <div
           class="img"
-          style="background-image: url(images/author-2.jpg)"
+          style="background-image: url(assets/images/author-2.jpg)"
         ></div>
         <div class="islam-table-cell js-fullheight">
           <div class="row no-gutters">
@@ -65,7 +65,7 @@
                 <a class="islam-logo" href="index.html"
                   ><span
                     class="logo-img"
-                    style="background-image: url(images/person_1.jpg)"
+                    style="background-image: url(assets/images/person_1.jpg)"
                   ></span
                   >Beckham Muff</a
                 >
@@ -99,7 +99,7 @@
                 molestiae voluptates soluta architecto tempora.
               </p>
               <p>
-                <img src="images/image_6.jpg" alt="" class="img-fluid" />
+                <img src="assets/images/image_6.jpg" alt="" class="img-fluid" />
               </p>
               <p>
                 Molestiae cupiditate inventore animi, maxime sapiente optio,
@@ -119,7 +119,7 @@
                 reiciendis incidunt hic non? Debitis commodi aut, adipisci.
               </p>
               <p>
-                <img src="images/image_8.jpg" alt="" class="img-fluid" />
+                <img src="assets/images/image_8.jpg" alt="" class="img-fluid" />
               </p>
               <p>
                 Quisquam esse aliquam fuga distinctio, quidem delectus veritatis
@@ -167,7 +167,7 @@
               <div class="about-author d-flex pt-5">
                 <div class="bio align-self-md-center mr-4">
                   <img
-                    src="images/person_1.jpg"
+                    src="assets/images/person_1.jpg"
                     alt="Image placeholder"
                     class="img-fluid mb-4"
                   />
@@ -189,7 +189,7 @@
                 <ul class="comment-list">
                   <li class="comment">
                     <div class="vcard bio">
-                      <img src="images/person_1.jpg" alt="Image placeholder" />
+                      <img src="assets/images/person_1.jpg" alt="Image placeholder" />
                     </div>
                     <div class="comment-body">
                       <h3>Jean Doe</h3>
@@ -207,7 +207,7 @@
 
                   <li class="comment">
                     <div class="vcard bio">
-                      <img src="images/person_1.jpg" alt="Image placeholder" />
+                      <img src="assets/images/person_1.jpg" alt="Image placeholder" />
                     </div>
                     <div class="comment-body">
                       <h3>Jean Doe</h3>
@@ -226,7 +226,7 @@
                       <li class="comment">
                         <div class="vcard bio">
                           <img
-                            src="images/person_1.jpg"
+                            src="assets/images/person_1.jpg"
                             alt="Image placeholder"
                           />
                         </div>
@@ -247,7 +247,7 @@
                           <li class="comment">
                             <div class="vcard bio">
                               <img
-                                src="images/person_1.jpg"
+                                src="assets/images/person_1.jpg"
                                 alt="Image placeholder"
                               />
                             </div>
@@ -269,7 +269,7 @@
                               <li class="comment">
                                 <div class="vcard bio">
                                   <img
-                                    src="images/person_1.jpg"
+                                    src="assets/images/person_1.jpg"
                                     alt="Image placeholder"
                                   />
                                 </div>
@@ -298,7 +298,7 @@
 
                   <li class="comment">
                     <div class="vcard bio">
-                      <img src="images/person_1.jpg" alt="Image placeholder" />
+                      <img src="assets/images/person_1.jpg" alt="Image placeholder" />
                     </div>
                     <div class="comment-body">
                       <h3>Jean Doe</h3>

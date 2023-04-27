@@ -1,45 +1,46 @@
 <template>
   <nav id="islam-main-nav" role="navigation">
-    <a href="#" class="js-islam-nav-toggle islam-nav-toggle active"
-      ><i></i
-    ></a>
+    <a class="js-islam-nav-toggle islam-nav-toggle active"><i></i></a>
     <div class="js-fullheight islam-table">
-      <div class="img" style="background-image: url(images/author-2.jpg)"></div>
+      <div
+        class="img"
+        style="background-image: url(assets/images/author-2.jpg)"
+      ></div>
       <div class="islam-table-cell js-fullheight">
         <div class="row no-gutters">
           <div class="col-md-12 text-center">
             <h1 class="mb-4">
-              <a href="index.html" class="logo">Beckham Muff</a>
+              <router-link :to="{ name: 'home' }" class="logo">Islam Samy</router-link>
             </h1>
             <ul>
-              <li class="active">
-                <a href="index.html"
-                  ><span><small>01</small>Home</span></a
+              <li :class="{ active: activeLink === 'home' }">
+                <router-link :to="{ name: 'home' }"
+                  ><span><small>01</small>Home</span></router-link
                 >
               </li>
-              <li>
-                <a href="about.html"
-                  ><span><small>02</small>Resume</span></a
+              <li :class="{ active: activeLink === 'about' }">
+                <router-link :to="{ name: 'about' }"
+                  ><span><small>02</small>Resume</span></router-link
                 >
               </li>
-              <li>
-                <a href="services.html"
-                  ><span><small>03</small>Services</span></a
+              <li :class="{ active: activeLink === 'services' }">
+                <router-link :to="{ name: 'services' }"
+                  ><span><small>03</small>Services</span></router-link
                 >
               </li>
-              <li>
-                <a href="portfolio.html"
-                  ><span><small>04</small>Portfolio</span></a
+              <li :class="{ active: activeLink === 'portfolio' }">
+                <router-link :to="{ name: 'portfolio' }"
+                  ><span><small>04</small>Portfolio</span></router-link
                 >
               </li>
-              <li>
-                <a href="blog.html"
-                  ><span><small>05</small>Blog</span></a
+              <li :class="{ active: activeLink === 'blog' }">
+                <router-link :to="{ name: 'blog' }"
+                  ><span><small>05</small>Blog</span></router-link
                 >
               </li>
-              <li>
-                <a href="contact.html"
-                  ><span><small>06</small>Contact</span></a
+              <li :class="{ active: activeLink === 'contact' }">
+                <router-link :to="{ name: 'contact' }"
+                  ><span><small>06</small>Contact</span></router-link
                 >
               </li>
             </ul>
@@ -49,3 +50,13 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  computed: {
+    activeLink() {
+      return this.$route.name;
+    },
+  }, //end of computed
+};
+</script>

@@ -1,18 +1,10 @@
 <template>
-  <div>
-    <div class="KW_progressContainer">
-      <div class="KW_progressBar"></div>
-    </div>
-    <div class="page">
-      <side-bar />
-      <top-bar />
-      <div id="islam-page">
-        <slider-section />
-        <service-section />
-        <work-section />
-        <footer-bar />
-      </div>
-    </div>
+  <loading v-if="isLoading" />
+
+  <div v-else>
+    <slider-section />
+    <service-section />
+    <work-section />
   </div>
 </template>
 
@@ -20,11 +12,24 @@
 import SliderSection from "./SliderSection.vue";
 import ServiceSection from "./ServiceSection.vue";
 import WorkSection from "./WorkSection.vue";
+import { mapGetters } from "vuex";
+
 export default {
   components: {
     SliderSection,
     ServiceSection,
     WorkSection,
+  },
+  computed: {
+    ...mapGetters(["isLoading"]),
+  },
+  mounted() {
+    this.$store.dispatch("closeMenu");
+    this.$store.commit("stopLoading");
+
+    if (!this.$store.getters.isAnimated) {
+      location.reload();
+    }
   },
 };
 </script>

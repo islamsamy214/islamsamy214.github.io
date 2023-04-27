@@ -15,7 +15,7 @@
           :key="i"
         >
           <router-link
-            :to="{ name: 'portfolio-single', query: { id: i } }"
+            :to="{ name: 'portfolio-details', query: { id: i } }"
             class="image d-flex justify-content-center align-items-center"
             :class="i % 2 === 0 ? 'order-' + i : ''"
             style="background-image: url('assets/images/work-1.jpg')"
@@ -30,7 +30,7 @@
           <div class="text">
             <h4 class="subheading">Illustration</h4>
             <h2 class="heading">
-              <router-link :to="{ name: 'portfolio-single', query: { id: i } }"
+              <router-link :to="{ name: 'portfolio-details', query: { id: i } }"
                 >Even the all-powerful Pointing has no control</router-link
               >
             </h2>
@@ -40,7 +40,7 @@
               line of blind text.
             </p>
             <p>
-              <router-link :to="{ name: 'portfolio-single', query: { id: i } }"
+              <router-link :to="{ name: 'portfolio-details', query: { id: i } }"
                 >View Project</router-link
               >
             </p>

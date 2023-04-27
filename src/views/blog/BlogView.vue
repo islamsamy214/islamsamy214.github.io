@@ -3,14 +3,14 @@
     <div class="KW_progressBar"></div>
   </div>
   <div class="page">
-    <nav id="islam-main-nav" role="navigation">
+    <nav  role="navigation">
       <a href="#" class="js-islam-nav-toggle islam-nav-toggle active"
         ><i></i
       ></a>
       <div class="js-fullheight islam-table">
         <div
           class="img"
-          style="background-image: url(images/author-2.jpg)"
+          style="background-image: url(assets/images/author-2.jpg)"
         ></div>
         <div class="islam-table-cell js-fullheight">
           <div class="row no-gutters">
@@ -65,7 +65,7 @@
                 <a class="islam-logo" href="index.html"
                   ><span
                     class="logo-img"
-                    style="background-image: url(images/person_1.jpg)"
+                    style="background-image: url(assets/images/person_1.jpg)"
                   ></span
                   >Beckham Muff</a
                 >
@@ -92,7 +92,7 @@
                 <a
                   href="blog-single.html"
                   class="block-20"
-                  style="background-image: url('images/image_1.jpg')"
+                  style="background-image: url('assets/images/image_1.jpg')"
                 >
                 </a>
                 <div class="text p-4 d-block">
@@ -119,7 +119,7 @@
                 <a
                   href="blog-single.html"
                   class="block-20"
-                  style="background-image: url('images/image_2.jpg')"
+                  style="background-image: url('assets/images/image_2.jpg')"
                 >
                 </a>
                 <div class="text p-4">
@@ -146,7 +146,7 @@
                 <a
                   href="blog-single.html"
                   class="block-20"
-                  style="background-image: url('images/image_3.jpg')"
+                  style="background-image: url('assets/images/image_3.jpg')"
                 >
                 </a>
                 <div class="text p-4">
@@ -173,7 +173,7 @@
                 <a
                   href="blog-single.html"
                   class="block-20"
-                  style="background-image: url('images/image_4.jpg')"
+                  style="background-image: url('assets/images/image_4.jpg')"
                 >
                 </a>
                 <div class="text p-4 d-block">
@@ -200,7 +200,7 @@
                 <a
                   href="blog-single.html"
                   class="block-20"
-                  style="background-image: url('images/image_5.jpg')"
+                  style="background-image: url('assets/images/image_5.jpg')"
                 >
                 </a>
                 <div class="text p-4">
@@ -227,7 +227,7 @@
                 <a
                   href="blog-single.html"
                   class="block-20"
-                  style="background-image: url('images/image_6.jpg')"
+                  style="background-image: url('assets/images/image_6.jpg')"
                 >
                 </a>
                 <div class="text p-4">

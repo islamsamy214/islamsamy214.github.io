@@ -10,7 +10,7 @@
       <div class="js-fullheight islam-table">
         <div
           class="img"
-          style="background-image: url(images/author-2.jpg)"
+          style="background-image: url(assets/images/author-2.jpg)"
         ></div>
         <div class="islam-table-cell js-fullheight">
           <div class="row no-gutters">
@@ -65,7 +65,7 @@
                 <a class="islam-logo" href="index.html"
                   ><span
                     class="logo-img"
-                    style="background-image: url(images/person_1.jpg)"
+                    style="background-image: url(assets/images/person_1.jpg)"
                   ></span
                   >Beckham Muff</a
                 >

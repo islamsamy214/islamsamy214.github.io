@@ -11,7 +11,7 @@
             class="col-md-12 ftco-animate"
             data-scrollax=" properties: { translateY: '70%' }"
           >
-            <p><a href="#" class="scroll">Hello! I'm</a></p>
+            <p><a class="scroll">Hello! I'm</a></p>
             <h1
               class="mb-3"
               data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"

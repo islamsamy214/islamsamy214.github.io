@@ -142,7 +142,7 @@ $(document).ready(function ($) {
       { offset: "95%" }
     );
   };
-  contentWayPoint();
+  // contentWayPoint();
 
   $("#appointment_date").datepicker({
     format: "m/d/yyyy",

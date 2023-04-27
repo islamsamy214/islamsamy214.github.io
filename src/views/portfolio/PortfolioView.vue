@@ -10,7 +10,7 @@
       <div class="js-fullheight islam-table">
         <div
           class="img"
-          style="background-image: url(images/author-2.jpg)"
+          style="background-image: url(assets/images/author-2.jpg)"
         ></div>
         <div class="islam-table-cell js-fullheight">
           <div class="row no-gutters">
@@ -65,7 +65,7 @@
                 <a class="islam-logo" href="index.html"
                   ><span
                     class="logo-img"
-                    style="background-image: url(images/person_1.jpg)"
+                    style="background-image: url(assets/images/person_1.jpg)"
                   ></span
                   >Beckham Muff</a
                 >
@@ -92,9 +92,9 @@
               data-scrollax-parent="true"
             >
               <a
-                href="portfolio-single.html"
+                href="portfolio-details.html"
                 class="image d-flex justify-content-center align-items-center"
-                style="background-image: url('images/work-1.jpg')"
+                style="background-image: url('assets/images/work-1.jpg')"
                 data-scrollax=" properties: { translateY: '-30%'}"
               >
                 <div
@@ -106,7 +106,7 @@
               <div class="text">
                 <h4 class="subheading">Illustration</h4>
                 <h2 class="heading">
-                  <a href="portfolio-single.html"
+                  <a href="portfolio-details.html"
                     >Even the all-powerful Pointing has no control</a
                   >
                 </h2>
@@ -123,9 +123,9 @@
               data-scrollax-parent="true"
             >
               <a
-                href="portfolio-single.html"
+                href="portfolio-details.html"
                 class="image order-2 d-flex justify-content-center align-items-center"
-                style="background-image: url('images/work-2.jpg')"
+                style="background-image: url('assets/images/work-2.jpg')"
                 data-scrollax=" properties: { translateY: '-30%'}"
               >
                 <div
@@ -154,9 +154,9 @@
               data-scrollax-parent="true"
             >
               <a
-                href="portfolio-single.html"
+                href="portfolio-details.html"
                 class="image d-flex justify-content-center align-items-center"
-                style="background-image: url('images/work-3.jpg')"
+                style="background-image: url('assets/images/work-3.jpg')"
                 data-scrollax=" properties: { translateY: '-30%'}"
               >
                 <div
@@ -168,7 +168,7 @@
               <div class="text">
                 <h4 class="subheading">Web Design</h4>
                 <h2 class="heading">
-                  <a href="portfolio-single.html"
+                  <a href="portfolio-details.html"
                     >Even the all-powerful Pointing has no control</a
                   >
                 </h2>
@@ -185,9 +185,9 @@
               data-scrollax-parent="true"
             >
               <a
-                href="portfolio-single.html"
+                href="portfolio-details.html"
                 class="image order-2 d-flex justify-content-center align-items-center"
-                style="background-image: url('images/work-4.jpg')"
+                style="background-image: url('assets/images/work-4.jpg')"
                 data-scrollax=" properties: { translateY: '-30%'}"
               >
                 <div
@@ -216,9 +216,9 @@
               data-scrollax-parent="true"
             >
               <a
-                href="portfolio-single.html"
+                href="portfolio-details.html"
                 class="image d-flex justify-content-center align-items-center"
-                style="background-image: url('images/work-5.jpg')"
+                style="background-image: url('assets/images/work-5.jpg')"
                 data-scrollax=" properties: { translateY: '-30%'}"
               >
                 <div
@@ -247,9 +247,9 @@
               data-scrollax-parent="true"
             >
               <a
-                href="portfolio-single.html"
+                href="portfolio-details.html"
                 class="image order-2 d-flex justify-content-center align-items-center"
-                style="background-image: url('images/work-6.jpg')"
+                style="background-image: url('assets/images/work-6.jpg')"
                 data-scrollax=" properties: { translateY: '-30%'}"
               >
                 <div

@@ -18,8 +18,19 @@ const routes = [
     path: "/blog",
     name: "blog",
     component: function () {
-      return import(/* webpackChunkName: "blog" */ "../views/BlogView.vue");
+      return import(/* webpackChunkName: "blog" */ "../views/blog/BlogView.vue");
     },
+    children: [
+      {
+        path: "",
+        name: "blog-details",
+        component: function () {
+          return import(
+            /* webpackChunkName: "blog-home" */ "../views/blog/BlogDetailsView.vue"
+          );
+        },
+      },
+    ],
   },
   {
     path: "/portfolio",
@@ -32,10 +43,10 @@ const routes = [
     children: [
       {
         path: "",
-        name: "portfolio-single",
+        name: "portfolio-details",
         component: function () {
           return import(
-            /* webpackChunkName: "portfolio-home" */ "../views/portfolio/PortfolioSingleView.vue"
+            /* webpackChunkName: "portfolio-home" */ "../views/portfolio/PortfolioDetailsView.vue"
           );
         },
         params: true,
@@ -72,7 +83,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(process.env.VUE_APP_BASE_URL),
   routes,
 });
 
