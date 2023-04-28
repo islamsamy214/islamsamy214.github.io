@@ -2,15 +2,13 @@
   <nav id="islam-main-nav" role="navigation">
     <a class="js-islam-nav-toggle islam-nav-toggle active"><i></i></a>
     <div class="js-fullheight islam-table">
-      <div
-        class="img"
-        style="background-image: url(assets/images/author-2.jpg)"
-      ></div>
       <div class="islam-table-cell js-fullheight">
         <div class="row no-gutters">
           <div class="col-md-12 text-center">
             <h1 class="mb-4">
-              <router-link :to="{ name: 'home' }" class="logo">Islam Samy</router-link>
+              <router-link :to="{ name: 'home' }" class="logo"
+                >Islam Samy</router-link
+              >
             </h1>
             <ul>
               <li :class="{ active: activeLink === 'home' }">
