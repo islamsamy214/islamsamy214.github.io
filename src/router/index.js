@@ -58,7 +58,7 @@ const routes = [
     name: "services",
     component: function () {
       return import(
-        /* webpackChunkName: "services" */ "../views/ServicesView.vue"
+        /* webpackChunkName: "services" */ "../views/service/ServicesView.vue"
       );
     },
   },
