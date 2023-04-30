@@ -12,7 +12,7 @@
           <div
             class="block-3 d-md-flex ftco-animate"
             data-scrollax-parent="true"
-            v-for="(portfolio, index) in portfolios"
+            v-for="(portfolio, index) in portfolioProjects"
             :key="index"
           >
             <router-link
@@ -44,7 +44,10 @@
               </p>
               <p>
                 <router-link
-                  :to="{ name: 'portfolio-details', query: { id: portfolio.id } }"
+                  :to="{
+                    name: 'portfolio-details',
+                    query: { id: portfolio.id },
+                  }"
                   >View Project</router-link
                 >
               </p>
@@ -73,60 +76,11 @@
 
 <script>
 export default {
-  data() {
-    return {
-      portfolios: [
-        {
-          id: 1,
-          title: "Even the all-powerful Pointing has no control",
-          image: "assets/images/work-1.jpg",
-          category: "Illustration",
-          description:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-        },
-        {
-          id: 2,
-          title: "Even the all-powerful Pointing has no control",
-          image: "assets/images/work-2.jpg",
-          category: "Branding",
-          description:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-        },
-        {
-          id: 3,
-          title: "Even the all-powerful Pointing has no control",
-          image: "assets/images/work-3.jpg",
-          category: "Web Design",
-          description:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-        },
-        {
-          id: 4,
-          title: "Even the all-powerful Pointing has no control",
-          image: "assets/images/work-4.jpg",
-          category: "Web Design",
-          description:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-        },
-        {
-          id: 5,
-          title: "Even the all-powerful Pointing has no control",
-          image: "assets/images/work-5.jpg",
-          category: "Branding",
-          description:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-        },
-        {
-          id: 6,
-          title: "Even the all-powerful Pointing has no control",
-          image: "assets/images/work-6.jpg",
-          category: "Illustration",
-          description:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
-        },
-      ],
-    };
-  },
+  computed: {
+    portfolioProjects() {
+      return this.$store.getters.getPortfolioProjects;
+    },
+  }, // end of computed
 
   mounted() {
     this.$store.dispatch("closeMenu");
