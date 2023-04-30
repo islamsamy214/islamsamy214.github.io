@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <side-bar />
-    <div >
+    <div>
       <top-bar />
       <router-view />
       <footer-bar />

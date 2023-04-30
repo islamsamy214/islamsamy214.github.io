@@ -1,359 +1,141 @@
 <template>
-  <div class="KW_progressContainer">
-    <div class="KW_progressBar"></div>
-  </div>
-  <div class="page">
-    <nav id="islam-main-nav" role="navigation">
-      <a href="#" class="js-islam-nav-toggle islam-nav-toggle active"
-        ><i></i
-      ></a>
-      <div class="js-fullheight islam-table">
-        <div
-          class="img"
-          style="background-image: url(assets/images/author-2.jpg)"
-        ></div>
-        <div class="islam-table-cell js-fullheight">
-          <div class="row no-gutters">
-            <div class="col-md-12 text-center">
-              <h1 class="mb-4">
-                <a href="index.html" class="logo">Beckham Muff</a>
-              </h1>
-              <ul>
-                <li>
-                  <a href="index.html"
-                    ><span><small>01</small>Home</span></a
-                  >
-                </li>
-                <li>
-                  <a href="about.html"
-                    ><span><small>02</small>Resume</span></a
-                  >
-                </li>
-                <li>
-                  <a href="services.html"
-                    ><span><small>03</small>Services</span></a
-                  >
-                </li>
-                <li class="active">
-                  <a href="portfolio.html"
-                    ><span><small>04</small>Portfolio</span></a
-                  >
-                </li>
-                <li>
-                  <a href="blog.html"
-                    ><span><small>05</small>Blog</span></a
-                  >
-                </li>
-                <li>
-                  <a href="contact.html"
-                    ><span><small>06</small>Contact</span></a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
+  <section class="ftco-section">
+    <div class="container mt-5">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center heading-section ftco-animate">
+          <span>Portfolio</span>
+          <h2>Checkout a few of my works</h2>
         </div>
       </div>
-    </nav>
-
-    <div id="islam-page">
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="islam-navbar-brand">
-                <a class="islam-logo" href="index.html"
-                  ><span
-                    class="logo-img"
-                    style="background-image: url(assets/images/person_1.jpg)"
-                  ></span
-                  >Beckham Muff</a
-                >
-              </div>
-              <a href="#" class="js-islam-nav-toggle islam-nav-toggle"
-                ><i></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <section class="ftco-section">
-        <div class="container mt-5">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ftco-animate">
-              <span>Portfolio</span>
-              <h2>Checkout a few of my works</h2>
-            </div>
-          </div>
-          <div class="row no-gutters">
-            <div
-              class="block-3 d-md-flex ftco-animate"
-              data-scrollax-parent="true"
+      <div class="row no-gutters">
+        <div class="row no-gutters">
+          <div
+            class="block-3 d-md-flex ftco-animate"
+            data-scrollax-parent="true"
+            v-for="(portfolio, index) in portfolios"
+            :key="index"
+          >
+            <router-link
+              :to="{ name: 'portfolio-details', query: { id: portfolio.id } }"
+              class="image d-flex justify-content-center align-items-center"
+              :class="index % 2 === 0 ? 'order-1' : ''"
+              :style="{ backgroundImage: 'url(' + portfolio.image + ')' }"
+              data-scrollax=" properties: { translateY: '-30%'}"
             >
-              <a
-                href="portfolio-details.html"
-                class="image d-flex justify-content-center align-items-center"
-                style="background-image: url('assets/images/work-1.jpg')"
-                data-scrollax=" properties: { translateY: '-30%'}"
+              <div
+                class="icon d-flex text-center justify-content-center align-items-center"
               >
-                <div
-                  class="icon d-flex text-center justify-content-center align-items-center"
+                <span class="icon-search"></span>
+              </div>
+            </router-link>
+            <div class="text">
+              <h4 class="subheading">{{ portfolio.category }}</h4>
+              <h2 class="heading">
+                <router-link
+                  :to="{
+                    name: 'portfolio-details',
+                    query: { id: portfolio.id },
+                  }"
+                  >{{ portfolio.title }}</router-link
                 >
-                  <span class="icon-search"></span>
-                </div>
-              </a>
-              <div class="text">
-                <h4 class="subheading">Illustration</h4>
-                <h2 class="heading">
-                  <a href="portfolio-details.html"
-                    >Even the all-powerful Pointing has no control</a
-                  >
-                </h2>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic life One day however a
-                  small line of blind text.
-                </p>
-                <p><a href="#">View Project</a></p>
-              </div>
-            </div>
-            <div
-              class="block-3 d-md-flex ftco-animate"
-              data-scrollax-parent="true"
-            >
-              <a
-                href="portfolio-details.html"
-                class="image order-2 d-flex justify-content-center align-items-center"
-                style="background-image: url('assets/images/work-2.jpg')"
-                data-scrollax=" properties: { translateY: '-30%'}"
-              >
-                <div
-                  class="icon d-flex text-center justify-content-center align-items-center"
-                >
-                  <span class="icon-search"></span>
-                </div>
-              </a>
-              <div class="text order-1">
-                <h4 class="subheading">Application</h4>
-                <h2 class="heading">
-                  <a href="portfoli-singleo.html"
-                    >Even the all-powerful Pointing has no control</a
-                  >
-                </h2>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic life One day however a
-                  small line of blind text.
-                </p>
-                <p><a href="#">View Project</a></p>
-              </div>
-            </div>
-            <div
-              class="block-3 d-md-flex ftco-animate"
-              data-scrollax-parent="true"
-            >
-              <a
-                href="portfolio-details.html"
-                class="image d-flex justify-content-center align-items-center"
-                style="background-image: url('assets/images/work-3.jpg')"
-                data-scrollax=" properties: { translateY: '-30%'}"
-              >
-                <div
-                  class="icon d-flex text-center justify-content-center align-items-center"
-                >
-                  <span class="icon-search"></span>
-                </div>
-              </a>
-              <div class="text">
-                <h4 class="subheading">Web Design</h4>
-                <h2 class="heading">
-                  <a href="portfolio-details.html"
-                    >Even the all-powerful Pointing has no control</a
-                  >
-                </h2>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic life One day however a
-                  small line of blind text.
-                </p>
-                <p><a href="#">View Project</a></p>
-              </div>
-            </div>
-            <div
-              class="block-3 d-md-flex ftco-animate"
-              data-scrollax-parent="true"
-            >
-              <a
-                href="portfolio-details.html"
-                class="image order-2 d-flex justify-content-center align-items-center"
-                style="background-image: url('assets/images/work-4.jpg')"
-                data-scrollax=" properties: { translateY: '-30%'}"
-              >
-                <div
-                  class="icon d-flex text-center justify-content-center align-items-center"
-                >
-                  <span class="icon-search"></span>
-                </div>
-              </a>
-              <div class="text order-1">
-                <h4 class="subheading">Application</h4>
-                <h2 class="heading">
-                  <a href="portfoli-singleo.html"
-                    >Even the all-powerful Pointing has no control</a
-                  >
-                </h2>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic life One day however a
-                  small line of blind text.
-                </p>
-                <p><a href="#">View Project</a></p>
-              </div>
-            </div>
-            <div
-              class="block-3 d-md-flex ftco-animate"
-              data-scrollax-parent="true"
-            >
-              <a
-                href="portfolio-details.html"
-                class="image d-flex justify-content-center align-items-center"
-                style="background-image: url('assets/images/work-5.jpg')"
-                data-scrollax=" properties: { translateY: '-30%'}"
-              >
-                <div
-                  class="icon d-flex text-center justify-content-center align-items-center"
-                >
-                  <span class="icon-search"></span>
-                </div>
-              </a>
-              <div class="text">
-                <h4 class="subheading">Animation</h4>
-                <h2 class="heading">
-                  <a href="portfoli-singleo.html"
-                    >Even the all-powerful Pointing has no control</a
-                  >
-                </h2>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic life One day however a
-                  small line of blind text.
-                </p>
-                <p><a href="#">View Project</a></p>
-              </div>
-            </div>
-            <div
-              class="block-3 d-md-flex ftco-animate"
-              data-scrollax-parent="true"
-            >
-              <a
-                href="portfolio-details.html"
-                class="image order-2 d-flex justify-content-center align-items-center"
-                style="background-image: url('assets/images/work-6.jpg')"
-                data-scrollax=" properties: { translateY: '-30%'}"
-              >
-                <div
-                  class="icon d-flex text-center justify-content-center align-items-center"
-                >
-                  <span class="icon-search"></span>
-                </div>
-              </a>
-              <div class="text order-1">
-                <h4 class="subheading">Branding</h4>
-                <h2 class="heading">
-                  <a href="portfoli-singleo.html"
-                    >Even the all-powerful Pointing has no control</a
-                  >
-                </h2>
-                <p>
-                  Even the all-powerful Pointing has no control about the blind
-                  texts it is an almost unorthographic life One day however a
-                  small line of blind text.
-                </p>
-                <p><a href="#">View Project</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col text-center">
-              <div class="block-27">
-                <ul>
-                  <li><a href="#">&lt;</a></li>
-                  <li class="active"><span>1</span></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li><a href="#">5</a></li>
-                  <li><a href="#">&gt;</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <footer class="ftco-footer ftco-bg-dark ftco-section">
-        <div class="container">
-          <div class="row mb-5 justify-content-center">
-            <div class="col-md-5 text-center">
-              <div class="ftco-footer-widget mb-5">
-                <ul class="ftco-footer-social list-unstyled">
-                  <li class="ftco-animate">
-                    <a href="#"><span class="icon-twitter"></span></a>
-                  </li>
-                  <li class="ftco-animate">
-                    <a href="#"><span class="icon-facebook"></span></a>
-                  </li>
-                  <li class="ftco-animate">
-                    <a href="#"><span class="icon-instagram"></span></a>
-                  </li>
-                </ul>
-              </div>
-              <div class="ftco-footer-widget">
-                <h2 class="mb-3">Contact Us</h2>
-                <p class="h3 email"><a href="#">info@email.com</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
+              </h2>
               <p>
-                <!-- Link back to islam can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy; All rights reserved | This template is made
-                with
-                <i class="icon-heart" aria-hidden="true" style="color: red"></i>
-                by <a href="https://islam.com" target="_blank">islam</a>
-                <!-- Link back to islam can't be removed. Template is licensed under CC BY 3.0. -->
+                {{ portfolio.description }}
+              </p>
+              <p>
+                <router-link
+                  :to="{ name: 'portfolio-details', query: { id: portfolio.id } }"
+                  >View Project</router-link
+                >
               </p>
             </div>
           </div>
         </div>
-      </footer>
-
-      <!-- loader -->
-      <div id="ftco-loader" class="show fullscreen">
-        <svg class="circular" width="48px" height="48px">
-          <circle
-            class="path-bg"
-            cx="24"
-            cy="24"
-            r="22"
-            fill="none"
-            stroke-width="4"
-            stroke="#eeeeee"
-          />
-          <circle
-            class="path"
-            cx="24"
-            cy="24"
-            r="22"
-            fill="none"
-            stroke-width="4"
-            stroke-miterlimit="10"
-            stroke="#F96D00"
-          />
-        </svg>
       </div>
+      <!-- <div class="row mt-5">
+        <div class="col text-center">
+          <div class="block-27">
+            <ul>
+              <li><a href="#">&lt;</a></li>
+              <li class="active"><span>1</span></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">&gt;</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
     </div>
-  </div>
+  </section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      portfolios: [
+        {
+          id: 1,
+          title: "Even the all-powerful Pointing has no control",
+          image: "assets/images/work-1.jpg",
+          category: "Illustration",
+          description:
+            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
+        },
+        {
+          id: 2,
+          title: "Even the all-powerful Pointing has no control",
+          image: "assets/images/work-2.jpg",
+          category: "Branding",
+          description:
+            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
+        },
+        {
+          id: 3,
+          title: "Even the all-powerful Pointing has no control",
+          image: "assets/images/work-3.jpg",
+          category: "Web Design",
+          description:
+            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
+        },
+        {
+          id: 4,
+          title: "Even the all-powerful Pointing has no control",
+          image: "assets/images/work-4.jpg",
+          category: "Web Design",
+          description:
+            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
+        },
+        {
+          id: 5,
+          title: "Even the all-powerful Pointing has no control",
+          image: "assets/images/work-5.jpg",
+          category: "Branding",
+          description:
+            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
+        },
+        {
+          id: 6,
+          title: "Even the all-powerful Pointing has no control",
+          image: "assets/images/work-6.jpg",
+          category: "Illustration",
+          description:
+            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text.",
+        },
+      ],
+    };
+  },
+
+  mounted() {
+    this.$store.dispatch("closeMenu");
+  }, // end of mounted
+
+  beforeRouteLeave(to, from, next) {
+    this.$store.commit("startLoading");
+    this.$store.commit("stopAnimation");
+    next();
+  }, // end of beforeRouteLeave
+};
+</script>

@@ -151,11 +151,15 @@ export default ({
     }
   },
 
-  mounted: () => { this.$store.dispatch("closeMenu") },
-  beforeRouteLeave: (to, from, next) => {
-    this.$store.commit("startLoading").commit("stopAnimation");
+  mounted() {
+    this.$store.dispatch("closeMenu");
+  }, // end of mounted
+
+  beforeRouteLeave(to, from, next) {
+    this.$store.commit("startLoading");
+    this.$store.commit("stopAnimation");
     next();
-  }
+  }, // end of beforeRouteLeave
 });
 </script>
 
