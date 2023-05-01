@@ -1,335 +1,57 @@
 <template>
-  <div class="KW_progressContainer">
-    <div class="KW_progressBar"></div>
-  </div>
-  <div class="page">
-    <nav  role="navigation">
-      <a href="#" class="js-islam-nav-toggle islam-nav-toggle active"
-        ><i></i
-      ></a>
-      <div class="js-fullheight islam-table">
-        <div
-          class="img"
-          style="background-image: url(assets/images/author-2.jpg)"
-        ></div>
-        <div class="islam-table-cell js-fullheight">
-          <div class="row no-gutters">
-            <div class="col-md-12 text-center">
-              <h1 class="mb-4">
-                <a href="index.html" class="logo">Beckham Muff</a>
-              </h1>
-              <ul>
-                <li>
-                  <a href="index.html"
-                    ><span><small>01</small>Home</span></a
+  <router-view></router-view>
+  <section class="ftco-section">
+    <div class="container mt-5">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center heading-section ftco-animate">
+          <span>Blog</span>
+          <h2>Read our blog</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 ftco-animate" v-for="i in 15" :key="i">
+          <div class="blog-entry">
+            <router-link
+              :to="{ name: 'blog-details', params: { id: i } }"
+              class="block-20"
+              style="background-image: url('assets/images/image_1.jpg')"
+            >
+            </router-link>
+            <div class="text p-4 d-block">
+              <div class="meta mb-3">
+                <div><a href="#">July 12, 2018</a></div>
+                <div><a href="#">Admin</a></div>
+                <div>
+                  <a href="#" class="meta-chat"
+                    ><span class="icon-chat"></span> 3</a
                   >
-                </li>
-                <li>
-                  <a href="about.html"
-                    ><span><small>02</small>Resume</span></a
-                  >
-                </li>
-                <li>
-                  <a href="services.html"
-                    ><span><small>03</small>Services</span></a
-                  >
-                </li>
-                <li>
-                  <a href="portfolio.html"
-                    ><span><small>04</small>Portfolio</span></a
-                  >
-                </li>
-                <li class="active">
-                  <a href="blog.html"
-                    ><span><small>05</small>Blog</span></a
-                  >
-                </li>
-                <li>
-                  <a href="contact.html"
-                    ><span><small>06</small>Contact</span></a
-                  >
-                </li>
-              </ul>
+                </div>
+              </div>
+              <h3 class="heading">
+                <a href="#"
+                  >Even the all-powerful Pointing has no control about the blind
+                  texts</a
+                >
+              </h3>
             </div>
           </div>
         </div>
       </div>
-    </nav>
-
-    <div id="islam-page">
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="islam-navbar-brand">
-                <a class="islam-logo" href="index.html"
-                  ><span
-                    class="logo-img"
-                    style="background-image: url(assets/images/person_1.jpg)"
-                  ></span
-                  >Beckham Muff</a
-                >
-              </div>
-              <a href="#" class="js-islam-nav-toggle islam-nav-toggle"
-                ><i></i
-              ></a>
-            </div>
+      <!-- <div class="row mt-5">
+        <div class="col text-center">
+          <div class="block-27">
+            <ul>
+              <li><a href="#">&lt;</a></li>
+              <li class="active"><span>1</span></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">&gt;</a></li>
+            </ul>
           </div>
         </div>
-      </header>
-
-      <section class="ftco-section">
-        <div class="container mt-5">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ftco-animate">
-              <span>Blog</span>
-              <h2>Read our blog</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 ftco-animate">
-              <div class="blog-entry">
-                <a
-                  href="blog-single.html"
-                  class="block-20"
-                  style="background-image: url('assets/images/image_1.jpg')"
-                >
-                </a>
-                <div class="text p-4 d-block">
-                  <div class="meta mb-3">
-                    <div><a href="#">July 12, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                    <div>
-                      <a href="#" class="meta-chat"
-                        ><span class="icon-chat"></span> 3</a
-                      >
-                    </div>
-                  </div>
-                  <h3 class="heading">
-                    <a href="#"
-                      >Even the all-powerful Pointing has no control about the
-                      blind texts</a
-                    >
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ftco-animate">
-              <div class="blog-entry" data-aos-delay="100">
-                <a
-                  href="blog-single.html"
-                  class="block-20"
-                  style="background-image: url('assets/images/image_2.jpg')"
-                >
-                </a>
-                <div class="text p-4">
-                  <div class="meta mb-3">
-                    <div><a href="#">July 12, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                    <div>
-                      <a href="#" class="meta-chat"
-                        ><span class="icon-chat"></span> 3</a
-                      >
-                    </div>
-                  </div>
-                  <h3 class="heading">
-                    <a href="#"
-                      >Even the all-powerful Pointing has no control about the
-                      blind texts</a
-                    >
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ftco-animate">
-              <div class="blog-entry" data-aos-delay="200">
-                <a
-                  href="blog-single.html"
-                  class="block-20"
-                  style="background-image: url('assets/images/image_3.jpg')"
-                >
-                </a>
-                <div class="text p-4">
-                  <div class="meta mb-3">
-                    <div><a href="#">July 12, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                    <div>
-                      <a href="#" class="meta-chat"
-                        ><span class="icon-chat"></span> 3</a
-                      >
-                    </div>
-                  </div>
-                  <h3 class="heading">
-                    <a href="#"
-                      >Even the all-powerful Pointing has no control about the
-                      blind texts</a
-                    >
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ftco-animate">
-              <div class="blog-entry">
-                <a
-                  href="blog-single.html"
-                  class="block-20"
-                  style="background-image: url('assets/images/image_4.jpg')"
-                >
-                </a>
-                <div class="text p-4 d-block">
-                  <div class="meta mb-3">
-                    <div><a href="#">July 12, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                    <div>
-                      <a href="#" class="meta-chat"
-                        ><span class="icon-chat"></span> 3</a
-                      >
-                    </div>
-                  </div>
-                  <h3 class="heading">
-                    <a href="#"
-                      >Even the all-powerful Pointing has no control about the
-                      blind texts</a
-                    >
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ftco-animate">
-              <div class="blog-entry" data-aos-delay="100">
-                <a
-                  href="blog-single.html"
-                  class="block-20"
-                  style="background-image: url('assets/images/image_5.jpg')"
-                >
-                </a>
-                <div class="text p-4">
-                  <div class="meta mb-3">
-                    <div><a href="#">July 12, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                    <div>
-                      <a href="#" class="meta-chat"
-                        ><span class="icon-chat"></span> 3</a
-                      >
-                    </div>
-                  </div>
-                  <h3 class="heading">
-                    <a href="#"
-                      >Even the all-powerful Pointing has no control about the
-                      blind texts</a
-                    >
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 ftco-animate">
-              <div class="blog-entry" data-aos-delay="200">
-                <a
-                  href="blog-single.html"
-                  class="block-20"
-                  style="background-image: url('assets/images/image_6.jpg')"
-                >
-                </a>
-                <div class="text p-4">
-                  <div class="meta mb-3">
-                    <div><a href="#">July 12, 2018</a></div>
-                    <div><a href="#">Admin</a></div>
-                    <div>
-                      <a href="#" class="meta-chat"
-                        ><span class="icon-chat"></span> 3</a
-                      >
-                    </div>
-                  </div>
-                  <h3 class="heading">
-                    <a href="#"
-                      >Even the all-powerful Pointing has no control about the
-                      blind texts</a
-                    >
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col text-center">
-              <div class="block-27">
-                <ul>
-                  <li><a href="#">&lt;</a></li>
-                  <li class="active"><span>1</span></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li><a href="#">5</a></li>
-                  <li><a href="#">&gt;</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <footer class="ftco-footer ftco-bg-dark ftco-section">
-        <div class="container">
-          <div class="row mb-5 justify-content-center">
-            <div class="col-md-5 text-center">
-              <div class="ftco-footer-widget mb-5">
-                <ul class="ftco-footer-social list-unstyled">
-                  <li class="ftco-animate">
-                    <a href="#"><span class="icon-twitter"></span></a>
-                  </li>
-                  <li class="ftco-animate">
-                    <a href="#"><span class="icon-facebook"></span></a>
-                  </li>
-                  <li class="ftco-animate">
-                    <a href="#"><span class="icon-instagram"></span></a>
-                  </li>
-                </ul>
-              </div>
-              <div class="ftco-footer-widget">
-                <h2 class="mb-3">Contact Us</h2>
-                <p class="h3 email"><a href="#">info@email.com</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <p>
-                <!-- Link back to islam can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy; All rights reserved | This template is made
-                with
-                <i class="icon-heart" aria-hidden="true" style="color: red"></i>
-                by <a href="https://islam.com" target="_blank">islam</a>
-                <!-- Link back to islam can't be removed. Template is licensed under CC BY 3.0. -->
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
-
-      <!-- loader -->
-      <div id="ftco-loader" class="show fullscreen">
-        <svg class="circular" width="48px" height="48px">
-          <circle
-            class="path-bg"
-            cx="24"
-            cy="24"
-            r="22"
-            fill="none"
-            stroke-width="4"
-            stroke="#eeeeee"
-          />
-          <circle
-            class="path"
-            cx="24"
-            cy="24"
-            r="22"
-            fill="none"
-            stroke-width="4"
-            stroke-miterlimit="10"
-            stroke="#F96D00"
-          />
-        </svg>
-      </div>
+      </div> -->
     </div>
-  </div>
+  </section>
 </template>

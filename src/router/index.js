@@ -22,7 +22,7 @@ const routes = [
     },
     children: [
       {
-        path: "",
+        path: ":id",
         name: "blog-details",
         component: function () {
           return import(
@@ -42,7 +42,7 @@ const routes = [
     },
     children: [
       {
-        path: "",
+        path: ":id",
         name: "portfolio-details",
         component: function () {
           return import(
