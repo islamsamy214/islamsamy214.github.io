@@ -1,5 +1,4 @@
 <template>
-  <router-view></router-view>
   <section class="ftco-section">
     <div class="container mt-5">
       <div class="row justify-content-center mb-5 pb-5">
@@ -55,3 +54,17 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  mounted() {
+    this.$store.dispatch("closeMenu");
+  }, // end of mounted
+
+  beforeRouteLeave(to, from, next) {
+    this.$store.commit("startLoading");
+    this.$store.commit("stopAnimation");
+    next();
+  }, // end of beforeRouteLeave
+};
+</script>

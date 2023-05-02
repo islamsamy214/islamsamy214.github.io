@@ -16,7 +16,7 @@
             :key="index"
           >
             <router-link
-              :to="{ name: 'portfolio-details', query: { id: portfolio.id } }"
+              :to="{ name: 'portfolio-details', params: { id: portfolio.id } }"
               class="image d-flex justify-content-center align-items-center"
               :class="index % 2 === 0 ? 'order-1' : ''"
               :style="{ backgroundImage: 'url(' + portfolio.image + ')' }"
@@ -34,7 +34,7 @@
                 <router-link
                   :to="{
                     name: 'portfolio-details',
-                    query: { id: portfolio.id },
+                    params: { id: portfolio.id },
                   }"
                   >{{ portfolio.title }}</router-link
                 >
@@ -46,7 +46,7 @@
                 <router-link
                   :to="{
                     name: 'portfolio-details',
-                    query: { id: portfolio.id },
+                    params: { id: portfolio.id },
                   }"
                   >View Project</router-link
                 >
