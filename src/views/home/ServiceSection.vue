@@ -12,9 +12,9 @@
           <div class="media block-6 services p-3 py-4 d-block text-center">
             <div class="icon mb-3"><span class="icon-layers"></span></div>
             <div class="media-body">
-              <h3 class="heading">Highly Professional Design</h3>
+              <h3 class="heading">Front-end Services</h3>
+              <h3 class="heading">High professional design</h3>
               <h3 class="heading">Mobile-Friendly websites</h3>
-              <h3 class="heading">E-commerce store</h3>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@
           <div class="media block-6 services p-3 py-4 d-block text-center">
             <div class="icon mb-3"><span class="icon-gears"></span></div>
             <div class="media-body">
-              <h3 class="heading">Product Strategy</h3>
+              <h3 class="heading">Back-end Servcies</h3>
               <h3 class="heading">Development Sprints</h3>
               <h3 class="heading">Clean Code</h3>
             </div>

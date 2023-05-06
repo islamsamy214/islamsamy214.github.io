@@ -31,11 +31,11 @@
                   ><span><small>04</small>Portfolio</span></router-link
                 >
               </li>
-              <li :class="{ active: activeLink === 'blog' }">
+              <!-- <li :class="{ active: activeLink === 'blog' }">
                 <router-link :to="{ name: 'blog' }"
                   ><span><small>05</small>Blog</span></router-link
                 >
-              </li>
+              </li> -->
               <li :class="{ active: activeLink === 'contact' }">
                 <router-link :to="{ name: 'contact' }"
                   ><span><small>06</small>Contact</span></router-link

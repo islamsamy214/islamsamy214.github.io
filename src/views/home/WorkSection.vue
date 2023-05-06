@@ -15,8 +15,8 @@
             v-for="(portfolio, index) in portfolioProjects"
             :key="index"
           >
-            <router-link
-              :to="{ name: 'portfolio-details', params: { id: portfolio.id } }"
+            <a :href="portfolio.url"
+              target="_blank"
               class="image d-flex justify-content-center align-items-center"
               :class="index % 2 === 0 ? 'order-1' : ''"
               :style="{ backgroundImage: 'url(' + portfolio.image + ')' }"
@@ -27,28 +27,20 @@
               >
                 <span class="icon-search"></span>
               </div>
-            </router-link>
+            </a>
             <div class="text">
               <h4 class="subheading">{{ portfolio.category }}</h4>
               <h2 class="heading">
-                <router-link
-                  :to="{
-                    name: 'portfolio-details',
-                    params: { id: portfolio.id },
-                  }"
-                  >{{ portfolio.title }}</router-link
-                >
+                <a :href="portfolio.url" target="_blank">{{
+                  portfolio.title
+                }}</a>
               </h2>
               <p>
                 {{ portfolio.description }}
               </p>
               <p>
-                <router-link
-                  :to="{
-                    name: 'portfolio-details',
-                    params: { id: portfolio.id },
-                  }"
-                  >View Project</router-link
+                <a :href="portfolio.url" target="_blank"
+                  >View Project</a
                 >
               </p>
             </div>
