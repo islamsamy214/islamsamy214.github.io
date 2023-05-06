@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkislamsamy"]=self["webpackChunkislamsamy"]||[]).push([[442],{623:function(n,r,a){a.r(r),a.d(r,{default:function(){return c}});var e=a(252);function s(n,r){return(0,e.wg)(),(0,e.iD)("div")}var u=a(744);const t={},i=(0,u.Z)(t,[["render",s]]);var c=i}}]);
+//# sourceMappingURL=portfolio-home.7a5c9e01.js.map
