@@ -1,11 +1,13 @@
 {
-  "name": "ISLAMSAMY",
+  "name": "islamsamy",
   "version": "1.0.0",
   "description": "Your project description",
   "main": "index.js",
+  "homepage": "https://islamsamy214.github.io/islamsamy214.github.io/",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vue/cli-service": "^5.0.8",
@@ -17,6 +19,7 @@
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "gh-pages": "^5.0.0",
     "vue-concise-slider": "^4.2.5"
   },
   "repository": {
