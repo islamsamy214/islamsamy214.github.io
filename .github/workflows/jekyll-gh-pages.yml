@@ -1,5 +1,4 @@
 name: Vue.js CI/CD with GitHub Pages
-
 on:
   push:
     branches: [master]
@@ -30,4 +29,4 @@ jobs:
       with:
         branch: gh-pages
         folder: dist
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PAT_TOKEN }}
