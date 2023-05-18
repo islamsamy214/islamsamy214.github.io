@@ -34,7 +34,7 @@
             class="col-md-12 ftco-animate"
             data-scrollax=" properties: { translateY: '70%' }"
           >
-            <p><a href="#" class="scroll">I'm from Egypt</a></p>
+            <p><a href="#" class="scroll">I'm</a></p>
             <h1
               class="mb-3"
               data-scrollax="properties: {translateY: '30%', opacity: 1.6}"

@@ -38,6 +38,12 @@
         </li>
         <li>
           <p>
+            Highly proﬁcient in <span>Docker</span>, with a track record of
+            practical implementations.
+          </p>
+        </li>
+        <li>
+          <p>
             And newly added skills as <span>DevOps</span> with
             <span>AWS cloud</span> such as <span>Cloud Fundamentals</span> like
             <span>Static hosting</span> with <span>S3</span> and promoting it
