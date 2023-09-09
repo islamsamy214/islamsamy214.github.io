@@ -6,12 +6,49 @@ export default createStore({
     pageAnimated: true,
     portfolioProjects: [
       {
+        title: "Map-App",
+        image: "assets/images/map-app.webp",
+        category: "Discover Nearby Landmarks with Ease - Laravel",
+        url: "https://map-app.inteligencia.me/",
+        description:
+          "Map-App is a versatile application meticulously designed to streamline the process of locating nearby addresses, landmarks for our dedicated sales team. It provides comprehensive data, including ratings, addresses, and contact numbers, for various local destinations. I had the privilege of spearheading this project from inception to fruition. Currently, Map-App is freely accessible to all, oﬀering its beneﬁts to a wider audience. However, there is a possibility that the organization may decide to limit access exclusively to company members in the future.",
+      },
+      {
+        title: "Nortech",
+        image: "assets/images/nortech.webp",
+        category: "Engaging Social Challenge Game - Laravel, Vue.js & Next.js",
+        url: "https://nortech.inteligencia.me/",
+        description: "Nortech is an immersive and interactive game designed to seamlessly integrate into events and serve as an exciting source of social entertainment. In this captivating experience, participants gather in groups and embark on a journey through diverse challenge levels. Each level introduces unique scoring challenges that tap into creativity, acting skills, and more, along with multiple evaluation forms. These forms encompass a range of criteria, each carrying its own signiﬁcance in determining comprehensi the ﬁnal score. Ultimately, the system aggregates the scores from all levels, delivering a comprehensive assessment of each team's performance. I took charge of the backend development, the CMS interface, and handled the deployment process as well.",
+      },
+      {
+        title: "Blueholding Intranet",
+        image: "assets/images/intranet.webp",
+        category: "Your Company's Exclusive Social Hub - Laravel, Vue.js & Next.js",
+        url: "https://intranet.blueholding.co.uk/",
+        description: "Blueholding Intranet is a dynamic platform inspired by LinkedIn, tailored speciﬁcally for our company. It serves as a social media hub for internal communication, allowing us to share news, upcoming events, interactive posts (akin to Twitter and Facebook), employee proﬁles, achievements, and more. Although similar to LinkedIn, it excludes job applications. The project was a formidable challenge, given our tight timeline and the need for real-time notiﬁcations. To achieve this, I implemented Redis for realtime features and utilized Laravel workers to queue and deliver manager emails through AWS SES. My responsibilities included developing the backend, crafting the CMS interface, and overseeing the deployment process."
+      },
+      {
+        title: "Poslix",
+        image: "assets/images/poslix.webp",
+        category: "Streamlined ERP for Diverse Point of Sales - Laravel & Next.js",
+        url: "https://app.poslix.com",
+        description: "Poslix is a versatile ERP solution catering to various point of sale businesses under a single owner. I took charge of backend development and API creation, despite the initial challenge of working with an existing and somewhat damaged database. After cloning the database for testing and reﬁning it, I successfully developed the required APIs to meet the owner's mobile needs."
+      }, 
+      {
         title: "Laravel & PrimeVue Dashboard",
         image: "assets/images/sakai.webp",
         category: "Admin dashboard - Laravel & Vue.js",
         url: "https://github.com/islamsamy214/admin-laravel-primevue/",
         description:
           "A dashboard template I migrate it from Sakai CLI and PrimeVue from native vue to be with Laravel. It is a fully responsive dashboard template that can be used for any type of web application. It is built with Laravel, PrimeVue, and Tailwind CSS.",
+      },
+      {
+        title: "American gulf school AGS",
+        image: "assets/images/ags.webp",
+        category: "Scholarship - Laravel & Next.js",
+        url: "https://ags.ae",
+        description:
+          "I was responsible for the backend and the deployment, It wasn’t that challenge to be fair otherwise it was too long because it has a lot of data to be managed with CMS, and of course, my role was to make that CMS.",
       },
       {
         title: "Champix",
@@ -22,12 +59,11 @@ export default createStore({
           "I was responsible for the backend and the deployment, It was a game like AGT but for a play, many teams will be involved and each team has many role plays so each role-play should have its rate and the team will get the average overall rate for each of them in all rounds and each round divided into multiple rates and each rate has a weight in addition that there is a separated round for a presentation with its rates should be added to the overall too.",
       },
       {
-        title: "American gulf school AGS",
-        image: "assets/images/ags.webp",
-        category: "Scholarship - Laravel & Next.js",
-        url: "https://ags.ae",
-        description:
-          "I was responsible for the backend and the deployment, It wasn’t that challenge to be fair otherwise it was too long because it has a lot of data to be managed with CMS, and of course, my role was to make that CMS.",
+        title: "Media-Share",
+        image: "assets/images/media-share.webp",
+        category: "Showcase Freelancer's Portfolios - Laravel & Vue.js",
+        url: "https://media-share-9zii.onrender.com",
+        description: "Media-Share is a platform that hosts portfolios for multiple freelancers, allowing them to display their work to potential clients."
       },
       {
         title: "Y-GYM",

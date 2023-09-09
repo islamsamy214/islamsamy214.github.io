@@ -18,7 +18,8 @@
           </div>
           <div class="ftco-footer-widget">
             <h2 class="mb-3">Contact Us</h2>
-            <p class="h3 email">
+            <!-- make max width screen and overflow scroll -->
+            <p class="h3 email" style="max-width: 100%; overflow: scroll">
               <a href="mailto:islamsamy214@gmail.com">islamsamy214@gmail.com</a>
             </p>
           </div>
