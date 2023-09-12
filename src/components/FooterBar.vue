@@ -29,10 +29,10 @@
         <div class="col-md-12 text-center">
           <p>
             <!-- Link back to islam can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy; All rights reserved | This template is made with
-            <i class="icon-heart" aria-hidden="true" style="color: red"></i>
-            by
-            <a href="https://islamsamy214.github.io" target="_blank">islam samy</a>
+            Copyright &copy; All rights reserved for
+            <a href="https://islamsamy214.github.io" target="_blank"
+              >islam samy</a
+            >
           </p>
         </div>
       </div>
