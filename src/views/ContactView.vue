@@ -7,12 +7,12 @@
         </div>
         <div class="w-100"></div>
         <div class="col-md-4">
-          <p><span>Address:</span> 63St, Sidi-Bishr, Alexandria, Egypt</p>
+          <p><span>Address:</span> Dubai, UAE</p>
         </div>
         <div class="col-md-4">
           <p>
             <span>Phone:</span>
-            <a href="tel:+201140347814"> (+20) 114 034 7814</a>
+            <a href="tel:+971505416038"> (+971) 50 541 6038</a>
           </p>
         </div>
         <div class="col-md-4">

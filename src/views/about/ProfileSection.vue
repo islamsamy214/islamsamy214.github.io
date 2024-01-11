@@ -17,9 +17,16 @@
         <p><strong>Name:</strong> <span>Islam Samy</span></p>
         <p>
           <strong>Address:</strong>
-          <span> 63st, Sidi Bishr, Alexandria, Egypt</span>
+          <span> Dubai, UAE</span>
         </p>
-        <p><strong>Phone:</strong> <span>(+20) 114 034 7814</span></p>
+        <p>
+          <strong>Phone:</strong>
+          <a href="tel:+971505416038"> (+971) 50 541 6038</a>
+        </p>
+        <p>
+          <strong>Alt Phone:</strong>
+          <a href="tel:+201140347814"> (+20) 114 034 7814</a>
+        </p>
       </div>
     </div>
   </div>

@@ -24,17 +24,23 @@ export default {
   data() {
     return {
       experiences: [
+      {
+          title: "Software Engineer",
+          company: "Skyloov DMCC Company",
+          location: "Dubai - UAE",
+          year: "2023 - Present",
+        },
         {
           title: "Software Engineer",
           company: "Blue Holding Company",
           location: "Alexandria - Egypt",
-          year: "2023 - Present",
+          year: "2022 - 2023",
         },
         {
           title: "Freelance Web Designer & Developer",
           company: "Fiverr, and Upwork",
           location: "Remote",
-          year: "2020 - 2023",
+          year: "2020 - 2022",
         },
       ],
     };

@@ -39,7 +39,7 @@
             Email:
             <a href="mailto:islamsamy214@gmail.com">islamsamy214@gmail.com</a>
           </p>
-          <p>Phone: <a href="tel:+201140347814">(+20) 114 034 7814</a></p>
+          <p>Phone: <a href="tel:+971505416038"> (+971) 50 541 6038</a></p>
         </div>
       </div>
     </div>

@@ -6,6 +6,15 @@ export default createStore({
     pageAnimated: true,
     portfolioProjects: [
       {
+        title: "Skyloov Property Portal",
+        image: "assets/images/skyloov.webp",
+        category:
+          "Real Estate - Python, Django, PHP, Laravel, Vue.js & Next.js",
+        url: "https://skyloov.com/",
+        description:
+          "Skyloov is a real estate portal that allows users to buy, sell, and rent properties. It also provides a platform for real estate agents to list their properties and manage their clients. I was responsible for the backend development, API creation, I worked on CMS Microservice, Analytics Microservice, Marketing Microservice, and Chat Microservice. I also developed the frontend for the admin panel and the frontend for the CMS Microservice.",
+      },
+      {
         title: "Map-App",
         image: "assets/images/map-app.webp",
         category: "Discover Nearby Landmarks with Ease - Laravel",
@@ -18,22 +27,27 @@ export default createStore({
         image: "assets/images/nortech.webp",
         category: "Engaging Social Challenge Game - Laravel, Vue.js & Next.js",
         url: "https://nortech.inteligencia.me/",
-        description: "Nortech is an immersive and interactive game designed to seamlessly integrate into events and serve as an exciting source of social entertainment. In this captivating experience, participants gather in groups and embark on a journey through diverse challenge levels. Each level introduces unique scoring challenges that tap into creativity, acting skills, and more, along with multiple evaluation forms. These forms encompass a range of criteria, each carrying its own signiﬁcance in determining comprehensi the ﬁnal score. Ultimately, the system aggregates the scores from all levels, delivering a comprehensive assessment of each team's performance. I took charge of the backend development, the CMS interface, and handled the deployment process as well.",
+        description:
+          "Nortech is an immersive and interactive game designed to seamlessly integrate into events and serve as an exciting source of social entertainment. In this captivating experience, participants gather in groups and embark on a journey through diverse challenge levels. Each level introduces unique scoring challenges that tap into creativity, acting skills, and more, along with multiple evaluation forms. These forms encompass a range of criteria, each carrying its own signiﬁcance in determining comprehensi the ﬁnal score. Ultimately, the system aggregates the scores from all levels, delivering a comprehensive assessment of each team's performance. I took charge of the backend development, the CMS interface, and handled the deployment process as well.",
       },
       {
         title: "Blueholding Intranet",
         image: "assets/images/intranet.webp",
-        category: "Your Company's Exclusive Social Hub - Laravel, Vue.js & Next.js",
+        category:
+          "Your Company's Exclusive Social Hub - Laravel, Vue.js & Next.js",
         url: "https://intranet.blueholding.co.uk/",
-        description: "Blueholding Intranet is a dynamic platform inspired by LinkedIn, tailored speciﬁcally for our company. It serves as a social media hub for internal communication, allowing us to share news, upcoming events, interactive posts (akin to Twitter and Facebook), employee proﬁles, achievements, and more. Although similar to LinkedIn, it excludes job applications. The project was a formidable challenge, given our tight timeline and the need for real-time notiﬁcations. To achieve this, I implemented Redis for realtime features and utilized Laravel workers to queue and deliver manager emails through AWS SES. My responsibilities included developing the backend, crafting the CMS interface, and overseeing the deployment process."
+        description:
+          "Blueholding Intranet is a dynamic platform inspired by LinkedIn, tailored speciﬁcally for our company. It serves as a social media hub for internal communication, allowing us to share news, upcoming events, interactive posts (akin to Twitter and Facebook), employee proﬁles, achievements, and more. Although similar to LinkedIn, it excludes job applications. The project was a formidable challenge, given our tight timeline and the need for real-time notiﬁcations. To achieve this, I implemented Redis for realtime features and utilized Laravel workers to queue and deliver manager emails through AWS SES. My responsibilities included developing the backend, crafting the CMS interface, and overseeing the deployment process.",
       },
       {
         title: "Poslix",
         image: "assets/images/poslix.webp",
-        category: "Streamlined ERP for Diverse Point of Sales - Laravel & Next.js",
+        category:
+          "Streamlined ERP for Diverse Point of Sales - Laravel & Next.js",
         url: "https://app.poslix.com",
-        description: "Poslix is a versatile ERP solution catering to various point of sale businesses under a single owner. I took charge of backend development and API creation, despite the initial challenge of working with an existing and somewhat damaged database. After cloning the database for testing and reﬁning it, I successfully developed the required APIs to meet the owner's mobile needs."
-      }, 
+        description:
+          "Poslix is a versatile ERP solution catering to various point of sale businesses under a single owner. I took charge of backend development and API creation, despite the initial challenge of working with an existing and somewhat damaged database. After cloning the database for testing and reﬁning it, I successfully developed the required APIs to meet the owner's mobile needs.",
+      },
       {
         title: "Laravel & PrimeVue Dashboard",
         image: "assets/images/sakai.webp",
@@ -63,7 +77,8 @@ export default createStore({
         image: "assets/images/media-share.webp",
         category: "Showcase Freelancer's Portfolios - Laravel & Vue.js",
         url: "https://media-share-9zii.onrender.com",
-        description: "Media-Share is a platform that hosts portfolios for multiple freelancers, allowing them to display their work to potential clients."
+        description:
+          "Media-Share is a platform that hosts portfolios for multiple freelancers, allowing them to display their work to potential clients.",
       },
       {
         title: "Y-GYM",
