@@ -1,2 +1,2 @@
 "use strict";(self["webpackChunkislamsamy"]=self["webpackChunkislamsamy"]||[]).push([[942],{443:function(n,r,u){u.r(r),u.d(r,{default:function(){return c}});var a=u(252);function e(n,r){return(0,a.wg)(),(0,a.iD)("div",null," 404.......................................... ")}var s=u(744);const t={},i=(0,s.Z)(t,[["render",e]]);var c=i}}]);
-//# sourceMappingURL=not-found.e9107c7b.js.map
+//# sourceMappingURL=not-found.0531191d.js.map
