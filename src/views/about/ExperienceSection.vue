@@ -26,20 +26,26 @@ export default {
       experiences: [
       {
           title: "Software Engineer",
-          company: "Skyloov DMCC Company",
-          location: "Dubai - UAE",
-          year: "2022 - Present",
+          company: "Skyloov DMCC",
+          location: "Dubai, UAE - Onsite",
+          year: "2023 - Present",
         },
         {
           title: "Software Engineer",
-          company: "Blue Holding Company",
-          location: "Alexandria - Egypt",
+          company: "Blue Holding",
+          location: "Alexandria, Egypt - Onsite",
+          year: "2022 - 2023",
+        },
+        {
+          title: "Backend Developer",
+          company: "POSLIX",
+          location: "Oman, Muscat - Remote",
           year: "2021 - 2022",
         },
         {
-          title: "Freelance Web Designer & Developer",
+          title: "Freelance Software Engineer",
           company: "Fiverr, and Upwork",
-          location: "Remote",
+          location: "Alexandria, Egypt - Remote",
           year: "2020 - 2021",
         },
       ],
