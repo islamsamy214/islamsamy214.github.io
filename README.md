@@ -24,7 +24,7 @@ Check out the live demo of my portfolio at [islamsamy214.github.io](https://isla
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/nuxt3-portfolio.git
+   git clone https://github.com/islamsamy214/islamsamy214.github.io
    ```
 
 2. Navigate to the project directory:
