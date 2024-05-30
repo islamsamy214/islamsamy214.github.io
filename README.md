@@ -39,13 +39,19 @@ Check out the live demo of my portfolio at [islamsamy214.github.io](https://isla
    npm install
    ```
 
-4. Start the development server:
+4. Copy .env.example to .env:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+5. Start the development server:
 
    ```bash
    npm run dev
    ```
 
-5. Open your browser and visit `http://localhost:3000` to see the portfolio in action.
+6. Open your browser and visit `http://localhost:3000` to see the portfolio in action.
 
 ## 🌟 Contributing
 
