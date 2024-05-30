@@ -1,19 +1,37 @@
-# new-portfolio
+# Nuxt 3 Portfolio
 
-## Project setup
-```
-npm install
-```
+A simple representation for my portfolio
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Setup
 
-### Compiles and minifies for production
-```
-npm run build
+Make sure to install the dependencies:
+
+```bash
+# bun
+bun install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# bun
+bun run preview
+```
