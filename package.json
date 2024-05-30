@@ -1,29 +1,31 @@
 {
-  "name": "islamsamy",
-  "version": "1.0.0",
-  "description": "Your project description",
-  "main": "index.js",
-  "homepage": "https://islamsamy214.github.io/islamsamy214.github.io/",
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "deploy": "gh-pages -d dist"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "gh-pre-deploy": "npx nuxt build --preset github_pages",
+    "gh-deploy": "npx gh-pages --dotfiles -d .output/public"
   },
   "dependencies": {
-    "@vue/cli-service": "^5.0.8",
-    "vue": "^3.2.13",
-    "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "@lucien144/vue3-parallaxy": "^0.1.2",
+    "@nuxtjs/sitemap": "^5.2.0",
+    "gh-pages": "^6.1.1",
+    "nuxt": "^3.11.2",
+    "nuxt-icon": "^0.6.10",
+    "nuxt-parallax": "^1.0.8",
+    "nuxt-simple-robots": "^4.0.0-rc.17",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "gh-pages": "^5.0.0",
-    "vue-concise-slider": "^4.2.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/islamsamy214/islamsamy214.github.io"
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-animated": "^1.0.1"
   }
 }
