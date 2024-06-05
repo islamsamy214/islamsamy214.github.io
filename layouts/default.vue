@@ -2,6 +2,16 @@
 const config = useRuntimeConfig();
 useHead({
   title: "Islam Samy - Software Engineer",
+  link: [
+    {
+      rel: "icon",
+      type: "image/x-icon",
+      href: "/favicon.ico",
+    }
+  ],
+  htmlAttrs: {
+    lang: "en",
+  },
   script: [
     {
       type: "application/ld+json",
