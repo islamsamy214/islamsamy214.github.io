@@ -7,7 +7,13 @@ useHead({
       rel: "icon",
       type: "image/x-icon",
       href: "/favicon.ico",
-    }
+    },
+    // apple touch icon
+    {
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      href: "/apple-touch-icon.png",
+    },
   ],
   htmlAttrs: {
     lang: "en",
