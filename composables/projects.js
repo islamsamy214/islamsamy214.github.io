@@ -42,7 +42,7 @@ export const useProjects = () => {
         image: "/images/poslix.webp",
         category:
           "Streamlined ERP for Diverse Point of Sales - Laravel & Next.js",
-        url: "https://app.poslix.com",
+        url: "https://poslix.com",
         description:
           "Poslix is a versatile ERP solution catering to various point of sale businesses under a single owner. I took charge of backend development and API creation, despite the initial challenge of working with an existing and somewhat damaged database. After cloning the database for testing and reﬁning it, I successfully developed the required APIs to meet the owner's mobile needs.",
       },
