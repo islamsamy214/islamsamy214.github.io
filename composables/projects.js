@@ -21,14 +21,6 @@ export const useProjects = () => {
           "Map-App is a versatile application meticulously designed to streamline the process of locating nearby addresses, landmarks for our dedicated sales team. It provides comprehensive data, including ratings, addresses, and contact numbers, for various local destinations. I had the privilege of spearheading this project from inception to fruition. Currently, Map-App is freely accessible to all, oﬀering its beneﬁts to a wider audience. However, there is a possibility that the organization may decide to limit access exclusively to company members in the future.",
       },
       {
-        title: "Nortech",
-        image: "/images/nortech.webp",
-        category: "Engaging Social Challenge Game - Laravel, Vue.js & Next.js",
-        url: "https://nortech.inteligencia.me/",
-        description:
-          "Nortech is an immersive and interactive game designed to seamlessly integrate into events and serve as an exciting source of social entertainment. In this captivating experience, participants gather in groups and embark on a journey through diverse challenge levels. Each level introduces unique scoring challenges that tap into creativity, acting skills, and more, along with multiple evaluation forms. These forms encompass a range of criteria, each carrying its own signiﬁcance in determining comprehensi the ﬁnal score. Ultimately, the system aggregates the scores from all levels, delivering a comprehensive assessment of each team's performance. I took charge of the backend development, the CMS interface, and handled the deployment process as well.",
-      },
-      {
         title: "Blueholding Intranet",
         image: "/images/intranet.webp",
         category:
@@ -101,6 +93,14 @@ export const useProjects = () => {
         url: "https://github.com/islamsamy214/blogs/",
         description:
           "A blogging web application I built it with Laravel and Vue.js, it has a lot of features like comments, likes, tags, categories, and more.",
+      },
+      {
+        title: "Nortech",
+        image: "/images/nortech.webp",
+        category: "Engaging Social Challenge Game - Laravel, Vue.js & Next.js",
+        url: "https://nortech.inteligencia.me/",
+        description:
+          "Nortech is an immersive and interactive game designed to seamlessly integrate into events and serve as an exciting source of social entertainment. In this captivating experience, participants gather in groups and embark on a journey through diverse challenge levels. Each level introduces unique scoring challenges that tap into creativity, acting skills, and more, along with multiple evaluation forms. These forms encompass a range of criteria, each carrying its own signiﬁcance in determining comprehensi the ﬁnal score. Ultimately, the system aggregates the scores from all levels, delivering a comprehensive assessment of each team's performance. I took charge of the backend development, the CMS interface, and handled the deployment process as well.",
       },
       {
         title: "Grad School",
@@ -187,8 +187,8 @@ export const useProjects = () => {
 
   const homeProjects = ref([
     projects.value[0],
-    projects.value[4],
-    projects.value[6],
+    projects.value[3],
+    projects.value[5],
   ]);
 
   return { projects, homeProjects };
