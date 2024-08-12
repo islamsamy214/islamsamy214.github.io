@@ -1,7 +1,9 @@
 <script setup></script>
 <template>
   <div class="flex flex-col gap-4 md:gap-8">
-    <ul class="list-disc list-outside text-lg md:text-xl flex flex-col gap-4 md:gap-6 px-4">
+    <ul
+      class="list-disc list-outside text-lg md:text-xl flex flex-col gap-4 md:gap-6 px-4"
+    >
       <li>
         <p>
           Proficient in front-end technologies, including <span>Nuxt.js</span>,
@@ -83,7 +85,7 @@
           <span>VPC</span> functionality and capable of creating private
           networks manually and using automation. Proficient in deploying
           Infrastructure as Code (IaC) with <span>AWS CloudFormation</span> and
-          building <span>CI/CD</span> pipelines using <span>CircleCI</span> and
+          building <span>CI/CD</span> pipelines using <span>Jenkins</span>, <span>CircleCI</span> and
           <span>GitHub</span>. Experienced in Monitoring & Logging with
           <span>Prometheus</span>.
         </p>
@@ -132,7 +134,7 @@
 </template>
 
 <style scoped>
-p{
+p {
   @apply text-gray-400;
 }
 
