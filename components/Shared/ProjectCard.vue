@@ -25,14 +25,14 @@ const isEven = ref((index + 1) % 2 === 0);
         <img
           :src="project.image"
           :alt="project.title"
-          class="h-full object-cover"
+          class="object-cover min-w-full max-h-full"
         />
       </Parallaxy>
       <Parallaxy :speed="150" class="hidden md:block">
         <img
           :src="project.image"
           :alt="project.title"
-          class="h-full object-cover"
+          class="object-cover min-w-full max-h-full"
         />
       </Parallaxy>
     </div>
