@@ -25,7 +25,7 @@ export const useProjects = () => {
         image: "/images/intranet.webp",
         category:
           "Your Company's Exclusive Social Hub - Laravel, Vue.js & Next.js",
-        url: "https://intranet.blueholding.co.uk/",
+        url: "https://blueholding.co.uk/",
         description:
           "Blueholding Intranet is a dynamic platform inspired by LinkedIn, tailored speciﬁcally for our company. It serves as a social media hub for internal communication, allowing us to share news, upcoming events, interactive posts (akin to Twitter and Facebook), employee proﬁles, achievements, and more. Although similar to LinkedIn, it excludes job applications. The project was a formidable challenge, given our tight timeline and the need for real-time notiﬁcations. To achieve this, I implemented Redis for realtime features and utilized Laravel workers to queue and deliver manager emails through AWS SES. My responsibilities included developing the backend, crafting the CMS interface, and overseeing the deployment process.",
       },
