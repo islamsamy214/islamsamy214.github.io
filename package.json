@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@lucien144/vue3-parallaxy": "^0.1.2",
-    "@nuxtjs/sitemap": "^5.2.0",
+    "@nuxtjs/sitemap": "^6.0.1",
     "gh-pages": "^6.1.1",
     "nuxt": "^3.11.2",
     "nuxt-icon": "^0.6.10",

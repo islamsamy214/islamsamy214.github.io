@@ -23,6 +23,7 @@ export default defineNuxtConfig({
   },
   site: {
     url: process.env.APP_URL,
+    name: "Islam Samy - Software Engineer",
     gzip: true,
     routes: async () => {
       return ["/", "/about", "/contact", "/portfolio", "/services"];
