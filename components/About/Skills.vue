@@ -78,7 +78,12 @@
       </li>
       <li>
         <p>
-          Recently acquired <span>DevOps</span> skills with
+          Recently acquired <span>Kubernetes</span>, which helped me to build high scalable applications and build <span>Microservices</span>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Acquired <span>DevOps</span> skills with
           <span>AWS cloud</span>, including Cloud Fundamentals such as static
           hosting with <span>S3</span> and promotion with
           <span>CloudFront</span>. I am familiar with
