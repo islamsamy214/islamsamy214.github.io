@@ -18,7 +18,7 @@ const { profile } = useProfile();
         {{ profile.intro }}
       </p>
       <a
-        href="/files/islamsamyResume.pdf"
+        href="/files/islamSamyCareer.pdf"
         target="_blank"
         download
         class="text-lg md:text-xl text-emerald-500 cursor-pointer"
