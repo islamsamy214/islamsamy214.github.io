@@ -1,21 +1,23 @@
-import Vue from 'vue'
-import VueMatomo from 'vue-matomo'
+export default defineNuxtPlugin(() => {
+  if (typeof window !== 'undefined') {
+    const _paq = (window._paq = window._paq || []);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
 
-export default defineNuxtPlugin((nuxtApp) => {
-  Vue.use(VueMatomo, {
-    // Matomo server URL
-    host: 'https://islamdev.matomo.cloud/',
+    // Update this with your Matomo server URL
+    const matomoURL = 'https://islamdev.matomo.cloud/';
+    const siteId = 1;
 
-    // Site ID configured in Matomo
-    siteId: 1,
+    // Dynamically insert Matomo tracking script
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = `${matomoURL}matomo.js`;
+    const firstScript = document.getElementsByTagName('script')[0];
+    firstScript.parentNode.insertBefore(script, firstScript);
 
-    // Use Nuxt's router for automatic page tracking
-    router: nuxtApp.$router,
-
-    // Additional options
-    enableLinkTracking: true,
-    trackInitialView: true,
-    requireConsent: false, // Change to true if consent is required
-    enableHeartBeatTimer: false, // Adjust based on preference
-  })
-})
+    // Set Matomo configuration
+    _paq.push(['setTrackerUrl', `${matomoURL}matomo.php`]);
+    _paq.push(['setSiteId', siteId]);
+  }
+});
