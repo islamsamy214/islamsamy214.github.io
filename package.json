@@ -20,6 +20,7 @@
     "nuxt-parallax": "^1.0.8",
     "nuxt-simple-robots": "^4.0.0-rc.17",
     "vue": "^3.4.27",
+    "vue-matomo": "^4.2.0",
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
