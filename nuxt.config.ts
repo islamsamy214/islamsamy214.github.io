@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: true },
-  plugins: ['~/plugins/matomo.js'],
   modules: [
     "nuxt-icon",
     "nuxt-parallax",
