@@ -8,12 +8,9 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: true },
-  modules: [
-    "nuxt-icon",
-    "nuxt-parallax",
-    "@nuxtjs/sitemap",
-    "nuxt-simple-robots",
-  ],
+
+  modules: ["nuxt-icon", "nuxt-parallax", "@nuxtjs/sitemap", "@nuxtjs/robots"],
+
   runtimeConfig: {
     public: {
       appUrl: process.env.APP_URL,
@@ -21,22 +18,27 @@ export default defineNuxtConfig({
       buildAssetsDir: "assets",
     },
   },
+
   site: {
     url: process.env.APP_URL,
+    hostname: process.env.APP_URL,
     name: "Islam Samy - Software Engineer",
     gzip: true,
     routes: async () => {
       return ["/", "/about", "/contact", "/portfolio", "/services"];
     },
   },
+
   robots: {
-    groups: [
+    rules: [
       {
-        userAgent: ["*"],
+        userAgent: "*",
+        allow: "/",
       },
     ],
-    sitemap: ["/sitemap.xml"],
+    sitemap: process.env.APP_URL + "/sitemap.xml",
   },
+
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
