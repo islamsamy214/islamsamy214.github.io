@@ -187,7 +187,7 @@ export const useProjects = () => {
 
   const homeProjects = ref([
     projects.value[0],
-    projects.value[3],
+    projects.value[2],
     projects.value[5],
   ]);
 
