@@ -7,7 +7,7 @@
       <li>
         <p>
           Proficient in front-end technologies, including <span>Nuxt.js</span>,
-          <span>Vue.js</span>, <span>JavaScript (ES6)</span>,
+          <span>Vue.js</span>, <span>JavaScript (ES6)</span>, <span>TypeScript</span>,
           <span>jQuery</span>, <span>Ajax</span>, <span>HTML5</span>,
           <span>CSS3</span>, <span>Tailwindcss</span>, <span>Bootstrap</span>,
           and of course <span>SEO</span>.
