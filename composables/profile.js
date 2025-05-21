@@ -55,6 +55,12 @@ export const useProfile = () => {
             year: "2017 - 2021",
         },
         {
+            title: "AWS Certified Cloud Practitioner",
+            university: "Amazon Web Services (AWS)",
+            location: "Dubai, UAE",
+            year: "2025",
+        },
+        {
             title: "Advanced Cloud DevOps Certification",
             university: "FWD - Udacity",
             location: "Alexandria, Egypt",
