@@ -13,19 +13,19 @@
   },
   "dependencies": {
     "@lucien144/vue3-parallaxy": "^0.1.2",
-    "@nuxtjs/robots": "^5.2.7",
-    "@nuxtjs/sitemap": "^6.0.1",
-    "gh-pages": "^6.1.1",
-    "nuxt": "^3.11.2",
+    "@nuxtjs/robots": "^5.5.5",
+    "@nuxtjs/sitemap": "^6.1.5",
+    "gh-pages": "^6.3.0",
+    "nuxt": "^3.19.2",
     "nuxt-icon": "^0.6.10",
     "nuxt-parallax": "^1.0.8",
-    "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue": "^3.5.21",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
-    "tailwindcss-animated": "^1.0.1"
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animated": "^1.1.2"
   }
 }
