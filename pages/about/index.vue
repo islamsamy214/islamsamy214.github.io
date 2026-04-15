@@ -50,6 +50,7 @@ useHead({
     <AboutProfile />
     <AboutExperience />
     <AboutEducation />
+    <AboutCertifications />
     <AboutSkills />
   </div>
 </template>

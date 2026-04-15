@@ -91,54 +91,66 @@ export const useProfile = () => {
             university: "Kafr Elshaikh University",
             location: "Kafr Elshaikh, Egypt",
             year: "2017 - 2021",
-        },
+            link: "https://www.linkedin.com/in/islamsamy214/overlay/Education/732286525/treasury/?profileId=ACoAACkzMfkBRpxjGlVzE_PQ7aFoWMk4eVyF3Io"
+        }
+    ]);
+
+    const certifications = reactive([
         {
             title: "Microsoft Certified: Azure Developer Associate (AZ-204)",
-            university: "Microsoft",
+            institution: "Microsoft",
             location: "Dubai, UAE",
             year: "2026",
+            link: "https://learn.microsoft.com/en-us/users/islacks/credentials/6340d3044e638365"
         },
         {
             title: "Certified Kubernetes Application Developer (CKAD)",
-            university: "The Linux Foundation",
+            institution: "The Linux Foundation",
             location: "Dubai, UAE",
             year: "2025",
+            link: "https://www.credly.com/badges/0e74aa29-2087-4e0c-aa23-c27a97e8537b"
         },
         {
             title: "HashiCorp Certified: Terraform Associate (003)",
-            university: "HashiCorp",
+            institution: "HashiCorp",
             location: "Dubai, UAE",
             year: "2025",
+            link: "https://www.credly.com/badges/522d41ef-911f-4324-941c-64800f7941f4"
         },
         {
             title: "Microsoft Certified: Azure Fundamentals (AZ-900)",
-            university: "Microsoft",
+            institution: "Microsoft",
             location: "Dubai, UAE",
             year: "2025",
+            link: "https://learn.microsoft.com/en-us/users/islacks/credentials/526dd634472ed316"
         },
         {
             title: "AWS Certified Cloud Practitioner",
-            university: "Amazon Web Services (AWS)",
+            institution: "Amazon Web Services (AWS)",
             location: "Dubai, UAE",
             year: "2025",
+            link: "https://www.credly.com/badges/0b680d35-267c-45ec-a22d-33ac15458727"
         },
         {
             title: "IELTS Band: 6",
-            university: "British Council",
+            institution: "British Council",
             location: "Alexandria, Egypt",
             year: "2023",
+            link: "https://ieltsregistration.britishcouncil.org/ttp/login?returnUrl=/ors/test-details/10024316/results"
         },
         {
             title: "Advanced Cloud DevOps Certification",
-            university: "FWD - Udacity",
+            institution: "FWD - Udacity",
             location: "Alexandria, Egypt",
             year: "2022 - 2023",
+            link: "https://www.udacity.com/certificate/9TGWADKZ"
         },
         {
-            title: "Front-End Certification",
-            university: "Information Technology Institute (ITI)",
+            title: "ITI Front-End Certification",
+            institution: "Information Technology Institute (ITI)",
             location: "Alexandria, Egypt",
             year: "2020 - 2021",
+            link: "https://www.linkedin.com/in/islamsamy214/details/certifications/1635555150220/single-media-viewer?profileId=ACoAACkzMfkBRpxjGlVzE_PQ7aFoWMk4eVyF3Io"
         },
     ]);
 
@@ -146,5 +158,6 @@ export const useProfile = () => {
         profile,
         experiences,
         educations,
+        certifications
     };
 }
