@@ -30,6 +30,14 @@ const { experiences } = useProfile();
           {{ experience.location }}
         </span>
       </div>
+      <ul
+        v-if="experience.bullets?.length"
+        class="list-disc list-outside pl-6 flex flex-col gap-2 text-base md:text-lg"
+      >
+        <li v-for="b in experience.bullets" :key="b">
+          <span>{{ b }}</span>
+        </li>
+      </ul>
       <!-- hidden if its the last item -->
       <SharedHorizontalLine :class="{ 'hidden': experiences[experiences.length - 1] === experience }" />
     </div>

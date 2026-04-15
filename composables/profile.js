@@ -2,10 +2,9 @@ export const useProfile = () => {
     const profile = reactive({
         name: "Islam Samy",
         title: "Software Engineer",
-        intro: "I’m a software engineer specialized in web development, motivated to meet customers and users expectations with high-quality and eﬀective website layouts, It’s good to say that I know my limits and I always try to exceed them, I accept the fact that I’m wrong when I’m wrong and build experience upon it too, and last but not least that I always try to develop my personality just like developing my skills.",
-        header: "I’m a software engineer specialized in web development, using Laravel framework and Golang for backend and Nuxt.js with Vue.js for frontend, in addition to DevOps skills too.",
-        description: "I have a passion for web development and love to create for web and mobile devices. I have a solid foundation in computer science, and I am a quick learner who is always trying to learn new technologies to improve my skills. ",
-        name: "Islam Samy",
+        intro: "DevOps-oriented Software Engineer with 5+ years of experience in cloud infrastructure, CI/CD, and scalable web systems. Skilled in Azure, AWS, Kubernetes, Docker, and Prometheus, with strong backend expertise in PHP (Laravel, Lumen), Golang, and microservices. Known for end-to-end ownership, automation, and ensuring high system reliability.",
+        header: "I'm a DevOps-oriented software engineer working across cloud infrastructure, CI/CD, and backend microservices — Azure, AWS, Kubernetes, Docker, Laravel, and Golang, with frontend experience in Nuxt.js and Vue.js.",
+        description: "I have a passion for building reliable, scalable systems end-to-end — from infrastructure as code and CI/CD pipelines to backend services and frontend delivery. I'm a quick learner who keeps pushing skills forward to meet real production demands.",
         address: "Dubai, UAE",
         email: "islamsamy214@gmail.com",
         phone: "(+971) 50 541 6038",
@@ -22,28 +21,67 @@ export const useProfile = () => {
 
     const experiences = reactive([
         {
+            title: "DevOps Engineer",
+            company: "GINCO IT",
+            location: "Dubai, UAE - Onsite",
+            year: "2026 - Present",
+            bullets: [
+                "Architect and operate scalable, resilient platforms across multi-cloud and on-premises environments.",
+                "Implemented GitOps principles to ensure Git remains the single source of truth, making deployments predictable and reversible.",
+                "Modernized infrastructure management by treating all resources as version-controlled code (IaC) to ensure auditability and consistency.",
+                "Built robust CI/CD pipelines using Azure DevOps and GitHub, streamlining the path from code to production.",
+                "Manage production-grade Kubernetes clusters, focusing on security, deep observability, and Helm-based standardization.",
+                "Partner with development teams to remove delivery friction, improving overall system reliability and deployment frequency.",
+            ],
+        },
+        {
             title: "Software Engineer",
             company: "Skyloov DMCC",
             location: "Dubai, UAE - Onsite",
-            year: "2023 - Present",
+            year: "2023 - 2026",
+            bullets: [
+                "Migrated dev/test environments from AWS (EKS, ECR, Kubernetes) to on-prem Minikube, reducing infrastructure costs by $3K/month.",
+                "Built CI/CD pipelines with GitHub Actions + Docker, cutting release cycles by 40%.",
+                "Implemented Prometheus monitoring and alerting for continuous microservice health visibility.",
+                "Developed microservices for marketing, analytics, chat, and agent tracking using Laravel, MongoDB, Reverb, and XML services.",
+                "Configured Omada firewall rules, strengthening network security and throughput.",
+                "Used Laravel Pulse APM to monitor performance across all Laravel microservices.",
+            ],
         },
         {
             title: "Software Engineer",
             company: "Blue Holding",
             location: "Alexandria, Egypt - Onsite",
             year: "2022 - 2023",
+            bullets: [
+                "Led cloud migration from cPanel to AWS (EC2, S3, SES, CloudFront), improving uptime, scalability, and reliability.",
+                "Designed and implemented Dockerized CI/CD pipelines with GitHub Actions across multiple services.",
+                "Owned application deployments, uptime monitoring, and infrastructure health.",
+                "Optimized Redis-powered intranet notifications to boost internal communication.",
+                "Built backend systems for AGS (American Gulf School), automating attendance and grading, saving staff 15+ hours weekly.",
+            ],
         },
         {
             title: "Backend Developer",
             company: "POSLIX",
             location: "Oman, Muscat - Remote",
             year: "2021 - 2022",
+            bullets: [
+                "Deployed ERP system on AWS Elastic Beanstalk, simplifying scaling, monitoring, and maintenance.",
+                "Refactored legacy ERP APIs and optimized PostgreSQL queries, improving performance by 35%.",
+                "Recovered and migrated a damaged POS database, ensuring business continuity and data integrity.",
+            ],
         },
         {
             title: "Freelance Software Engineer",
             company: "Fiverr, and Upwork",
             location: "Alexandria, Egypt - Remote",
             year: "2020 - 2021",
+            bullets: [
+                "Delivered deployment-ready web applications, managing hosting, CI/CD, and infrastructure for clients.",
+                "Built Media-Share, a freelancer portfolio platform with integrated payments, serving 200+ users.",
+                "Developed Y-GYM, a gym management system with real-time attendance tracking and automated workflows.",
+            ],
         },
     ]);
 
@@ -55,10 +93,40 @@ export const useProfile = () => {
             year: "2017 - 2021",
         },
         {
+            title: "Microsoft Certified: Azure Developer Associate (AZ-204)",
+            university: "Microsoft",
+            location: "Dubai, UAE",
+            year: "2026",
+        },
+        {
+            title: "Certified Kubernetes Application Developer (CKAD)",
+            university: "The Linux Foundation",
+            location: "Dubai, UAE",
+            year: "2025",
+        },
+        {
+            title: "HashiCorp Certified: Terraform Associate (003)",
+            university: "HashiCorp",
+            location: "Dubai, UAE",
+            year: "2025",
+        },
+        {
+            title: "Microsoft Certified: Azure Fundamentals (AZ-900)",
+            university: "Microsoft",
+            location: "Dubai, UAE",
+            year: "2025",
+        },
+        {
             title: "AWS Certified Cloud Practitioner",
             university: "Amazon Web Services (AWS)",
             location: "Dubai, UAE",
             year: "2025",
+        },
+        {
+            title: "IELTS Band: 6",
+            university: "British Council",
+            location: "Alexandria, Egypt",
+            year: "2023",
         },
         {
             title: "Advanced Cloud DevOps Certification",
