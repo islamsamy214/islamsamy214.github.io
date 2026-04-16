@@ -4,8 +4,8 @@ const { menuOpened, closeMenu } = useMenu();
 const pages = reactive([
   { title: "Home", link: "/", active: false },
   { title: "About", link: "/about", active: false },
-  { title: "Services", link: "/services", active: false },
-  { title: "Portfolio", link: "/portfolio", active: false },
+  { title: "Solutions", link: "/services", active: false },
+  { title: "Case Studies", link: "/portfolio", active: false },
   { title: "Contact", link: "/contact", active: false },
 ]);
 

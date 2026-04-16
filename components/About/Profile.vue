@@ -4,7 +4,7 @@ const { profile } = useProfile();
 <template>
   <div class="flex flex-col gap-4 md:gap-8 xl:px-36">
     <div class="flex flex-col gap-4 md:gap-8">
-      <h3 class="text-xl md:text-3xl text-white font-bold">Profile</h3>
+      <h3 class="text-xl md:text-3xl text-white font-bold">What I Bring to the Table</h3>
       <h4 class="text-lg md:text-xl">
         {{ profile.header }}
       </h4>
@@ -12,11 +12,11 @@ const { profile } = useProfile();
     </div>
     <div class="flex flex-col gap-2 md:gap-4">
       <div class="info-contianer">
-        <span>Name: </span>
+        <span>Principal Consultant: </span>
         <p>{{ profile.name }}</p>
       </div>
       <div class="info-contianer">
-        <span>Address: </span>
+        <span>Headquarters: </span>
         <p>{{ profile.address }}</p>
       </div>
       <div class="info-contianer">

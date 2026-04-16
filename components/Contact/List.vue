@@ -4,6 +4,9 @@ const { profile } = useProfile();
 
 <template>
   <div class="flex flex-col items-center justify-center gap-4 text-lg md:text-xl">
+    <p class="text-gray-400 text-center max-w-xl mb-4">
+      Tell me what you're dealing with. No commitment, no forms — just a conversation to see if I'm the right fit.
+    </p>
     <div class="info-contianer">
       <span>Email: </span>
       <a

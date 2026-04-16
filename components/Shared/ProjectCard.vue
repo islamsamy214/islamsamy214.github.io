@@ -49,7 +49,7 @@ const isEven = ref((index + 1) % 2 === 0);
         :href="project.url"
         target="_blank"
         class="text-white text-lg hover:text-emerald-500 transition-all"
-        >Visit ...!</a
+        >View Case Study</a
       >
     </div>
   </div>

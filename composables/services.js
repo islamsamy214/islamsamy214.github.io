@@ -2,47 +2,60 @@ export const useServices = () => {
     const services = useState("services", () => {
         return [
             {
-                title: "Backend development",
+                title: "Cloud Infrastructure & Migration",
+                icon: "mdi:aws",
+                discription:
+                    "Stuck on outdated hosting or bleeding money on cloud bills? I move your infrastructure to Azure or AWS properly — no surprises, no downtime drama.",
+            },
+            {
+                title: "CI/CD & DevOps Automation",
+                icon: "mdi:pipe",
+                discription:
+                    "If deploying feels risky or takes hours, something's broken. I set up pipelines that let your team ship with confidence — GitHub Actions, Azure DevOps, whatever fits.",
+            },
+            {
+                title: "Kubernetes & Containers",
+                icon: "mdi:kubernetes",
+                discription:
+                    "Containers running but nobody really understands how? I set up Kubernetes the right way — Helm charts, proper networking, monitoring, and security that doesn't get ignored.",
+            },
+            {
+                title: "Backend Engineering & APIs",
                 icon: "mdi:server",
                 discription:
-                    "I can build a scalable and secure backend for your application.",
+                    "Need a backend that won't buckle under load? I build APIs and microservices in Laravel and Golang that are fast, tested, and ready for the real world.",
             },
             {
-                title: "Frontend development",
+                title: "Monitoring & Observability",
+                icon: "material-symbols:performance-max",
+                discription:
+                    "You can't fix what you can't see. I wire up Prometheus, Grafana, and alerting so you know what's happening in your systems before your users do.",
+            },
+            {
+                title: "Infrastructure as Code",
+                icon: "material-symbols:code-off-rounded",
+                discription:
+                    "Clicking around in cloud consoles doesn't scale. I set up Terraform, Bicep, or CloudFormation so your infra is versioned, repeatable, and not stuck in someone's head.",
+            },
+            {
+                title: "Security & Compliance",
+                icon: "material-symbols:security",
+                discription:
+                    "Security configs you set up once and forgot about? I audit what's actually running, tighten the gaps, and help you meet compliance requirements without the panic.",
+            },
+            {
+                title: "Full-Stack Web Development",
                 icon: "mdi:web",
                 discription:
-                    "I can build a responsive and user-friendly frontend for your application.",
+                    "Sometimes you just need the whole thing built — frontend to backend to deployment. I work across Nuxt.js, Vue.js, Laravel, and Golang to deliver complete systems.",
             },
-            {
-                title: "DevOps",
-                icon: "mdi:aws",
-                discription: "I can help you in deploying and managing your application.",
-            },
-            { title: "Fullstack development", icon: "material-symbols:code-off-rounded", discription: "I can build both the frontend and backend for your application." },
-            { title: "Database design", icon: "material-symbols-light:database", discription: "I can design a database schema for your application." },
-            { title: "API integration", icon: "mdi:api", discription: "I can integrate third-party APIs into your application." },
-            { title: "Performance optimization", icon: "material-symbols:performance-max", discription: "I can optimize your application for speed and efficiency." },
-            { title: "Security audit", icon: "material-symbols:security", discription: "I can perform a security audit on your application." },
-            { title: "Code review", icon: "material-symbols:planner-review-rounded", discription: "I can review your codebase and provide feedback." },
-            { title: "Documentation", icon: "material-symbols:docs-outline", discription: "I can write technical documentation for your application." },
-            { title: "Project management", icon: "fluent:projection-screen-text-24-filled", discription: "I can manage your project from start to finish." },
-            { title: "UI/UX design", icon: "material-symbols:design-services-rounded", discription: "I can design a beautiful and intuitive user interface for your application." },
-            { title: "SEO optimization", icon: "tabler:seo", discription: "I can optimize your website for search engines to increase your visibility." },
-            { title: "E-commerce development", icon: "material-symbols:add-shopping-cart", discription: "I can build an online store for your business." },
-            { title: "Web hosting", icon: "simple-icons:hostinger", discription: "I can host your website on a secure and reliable server." },
-            { title: "Domain registration", icon: "material-symbols:cloud-domains", discription: "I can register a domain name for your website." },
-            { title: "Maintenance & support", icon: "material-symbols:checked-bag-question-rounded", discription: "I can maintain and support your website after it's launched." },
-            { title: "Consulting", icon: "mdi:cellphone-message", discription: "I can provide you with expert advice on your project." },
-            { title: "Training", icon: "material-symbols:model-training-outline-rounded", discription: "I can train you or your team on web development technologies." },
-            { title: "Custom solutions", icon: "material-symbols:dashboard-customize", discription: "I can build a custom solution for your unique requirements." },
-            { title: "And more...", icon: "gg:more-o", discription: "I can help you with any other web development services you need." },
         ];
     });
 
     const homeServices = ref([
         services.value[0],
         services.value[1],
-        services.value[2],
+        services.value[3],
     ]);
 
     return { services, homeServices };

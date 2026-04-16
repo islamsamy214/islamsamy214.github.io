@@ -7,9 +7,9 @@ const { homeServices: services } = useServices();
     class="flex flex-col items-center justify-center min-h-32 md:min-h-48 gap-4"
   >
     <span class="tracking-widest uppercase text-gray-400 text-lg md:text-xl"
-      >What I do</span
+      >What I Do</span
     >
-    <h2 class="text-2xl md:text-5xl text-white font-bold">Services</h2>
+    <h2 class="text-2xl md:text-5xl text-white font-bold">Solutions</h2>
   </div>
   <div
     class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center items-center justify-center"
@@ -25,7 +25,7 @@ const { homeServices: services } = useServices();
     <nuxt-link
       to="/services"
       class="text-white font-bold text-xl hover:text-emerald-500 transition-all"
-      >And more ...</nuxt-link
+      >Explore all solutions</nuxt-link
     >
   </div>
 </template>

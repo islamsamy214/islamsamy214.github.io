@@ -2,8 +2,9 @@
 import { reactive, ref, onMounted } from "vue";
 
 const headers = reactive([
-  { title: "Hello! I'm", content: "Islam Samy" },
-  { title: "I'm", content: "A Software Engineer" },
+  { title: "Your infra shouldn't", content: "Keep You Up at Night" },
+  { title: "Ship faster.", content: "Break Less." },
+  { title: "I'm Islam Samy.", content: "I Fix What's Broken." },
 ]);
 const currentIndex = ref(0);
 

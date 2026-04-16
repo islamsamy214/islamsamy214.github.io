@@ -1,10 +1,12 @@
 export const useProfile = () => {
     const profile = reactive({
         name: "Islam Samy",
-        title: "Software Engineer",
-        intro: "DevOps-oriented Software Engineer with 5+ years of experience in cloud infrastructure, CI/CD, and scalable web systems. Skilled in Azure, AWS, Kubernetes, Docker, and Prometheus, with strong backend expertise in PHP (Laravel, Lumen), Golang, and microservices. Known for end-to-end ownership, automation, and ensuring high system reliability.",
-        header: "I'm a DevOps-oriented software engineer working across cloud infrastructure, CI/CD, and backend microservices — Azure, AWS, Kubernetes, Docker, Laravel, and Golang, with frontend experience in Nuxt.js and Vue.js.",
-        description: "I have a passion for building reliable, scalable systems end-to-end — from infrastructure as code and CI/CD pipelines to backend services and frontend delivery. I'm a quick learner who keeps pushing skills forward to meet real production demands.",
+        companyName: "Islam Samy",
+        title: "DevOps & Software Engineering",
+        tagline: "Your infra shouldn't keep you up at night.",
+        intro: "Deployments breaking at 2am. Cloud bills climbing with no explanation. A CI pipeline held together with duct tape. Sound familiar? I've spent 5+ years fixing exactly this — building infrastructure that actually works and backends that don't fall over when traffic spikes. Azure, AWS, Kubernetes, Laravel, Golang — whatever the stack, I've shipped it in production.",
+        header: "I fix broken deployments, tame cloud costs, and build backends that hold up under pressure. If your team is shipping slow or your infra feels fragile, that's where I come in.",
+        description: "I don't do surface-level consulting. I get into the codebase, set up the pipelines, configure the clusters, and make sure everything works before I hand it over. You get production-ready systems, not slide decks.",
         address: "Dubai, UAE",
         email: "islamsamy214@gmail.com",
         phone: "(+971) 50 541 6038",
@@ -15,9 +17,27 @@ export const useProfile = () => {
             github: "https://github.com/islamsamy214",
             linkedin: "https://www.linkedin.com/in/islamsamy214/",
             whatsapp: "https://wa.me/+971505416038",
-            buymeacoffee: "https://www.buymeacoffee.com/islamsamy"
         }
     });
+
+    const whyChooseUs = reactive([
+        {
+            title: "I've done it before",
+            description: "Real estate portals, ERP systems, school platforms, corporate intranets — not toy projects. Live systems with real users and real deadlines.",
+        },
+        {
+            title: "I finish what I start",
+            description: "No half-built prototypes. I ship working systems — infra, backend, CI/CD, monitoring — and make sure they actually run in production.",
+        },
+        {
+            title: "Certified, not just experienced",
+            description: "Azure AZ-204, CKAD, Terraform Associate, AWS CCP. I passed the exams because I use the tools daily, not the other way around.",
+        },
+        {
+            title: "Dubai-based, remote-friendly",
+            description: "Based in Dubai, but I've worked with teams in UAE, Oman, Egypt, and fully remote. Timezone flexibility isn't a problem.",
+        },
+    ]);
 
     const experiences = reactive([
         {
@@ -156,6 +176,7 @@ export const useProfile = () => {
 
     return {
         profile,
+        whyChooseUs,
         experiences,
         educations,
         certifications

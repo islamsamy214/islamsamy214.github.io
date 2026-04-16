@@ -1,7 +1,7 @@
 <script setup>
 const config = useRuntimeConfig();
 useHead({
-  title: "Islam Samy - Software Engineer",
+  title: "Islam Samy — DevOps & Software Engineering",
   link: [
     {
       rel: "icon",
@@ -23,9 +23,13 @@ useHead({
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Person",
+        "@type": "ProfessionalService",
         name: "Islam Samy",
-        jobTitle: "Software Engineer",
+        description: "DevOps and software engineering consultancy based in Dubai, UAE",
+        founder: {
+          "@type": "Person",
+          name: "Islam Samy",
+        },
         address: {
           "@type": "PostalAddress",
           addressLocality: "Dubai",
@@ -33,12 +37,11 @@ useHead({
         },
         email: "mailto:islamsamy214@gmail.com",
         telephone: "+971505416038",
-        url: config.public.appUrl ,
+        url: config.public.appUrl,
         sameAs: [
           "https://github.com/islamsamy214",
           "https://www.linkedin.com/in/islamsamy214/",
           "https://wa.me/+971505416038",
-          "https://www.buymeacoffee.com/islamsamy",
         ],
       }),
     },

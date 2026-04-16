@@ -1,28 +1,28 @@
 <script setup>
 const config = useRuntimeConfig();
 useHead({
-  title: "Services by Islam Samy - Software Engineer",
+  title: "Solutions — Islam Samy",
   meta: [
     {
       name: "description",
       content:
-        "Discover the range of web development services offered by Islam Samy, including backend development, frontend development, DevOps, and more.",
+        "Islam Samy delivers cloud infrastructure, CI/CD automation, Kubernetes orchestration, backend engineering, and full-stack web development solutions.",
     },
-    { name: 'keywords', content: 'services, web development, backend development, frontend development, DevOps, database design, SEO optimization, e-commerce development' },
-    { property: 'og:title', content: 'Services Offered by Islam Samy' },
-    { property: 'og:description', content: 'Discover the range of web development services offered by Islam Samy, including backend development, frontend development, DevOps, and more.' },
+    { name: 'keywords', content: 'Islam Samy, solutions, cloud infrastructure, CI/CD, Kubernetes, backend engineering, DevOps, Dubai' },
+    { property: 'og:title', content: 'Solutions — Islam Samy' },
+    { property: 'og:description', content: 'Cloud infrastructure, CI/CD automation, Kubernetes, backend engineering, and full-stack web development solutions.' },
     { property: 'og:type', content: 'website' },
     { property: "og:url", content: config.public.appUrl + "/services" },
     {
       property: "og:image",
       content: config.public.appUrl + "/images/profile.jpg",
-    }, // Replace with your actual image URL
+    },
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: "Services by Islam Samy - Software Engineer" },
+    { name: "twitter:title", content: "Solutions — Islam Samy" },
     {
       name: "twitter:description",
       content:
-        "Specialized in web development using Laravel, Golang, Nuxt.js, and Vue.js.",
+        "Cloud infrastructure, CI/CD automation, Kubernetes, backend engineering, and full-stack web development solutions.",
     },
     {
       name: "twitter:image",

@@ -1,24 +1,24 @@
 <script setup>
 const config = useRuntimeConfig();
 useHead({
-  title: 'Portfolio of Islam Samy - Software Engineer',
+  title: 'Case Studies — Islam Samy',
   meta: [
-    { name: 'description', content: 'Explore the portfolio of Islam Samy, a software engineer specializing in web development. View projects developed using various technologies such as Python, Django, Laravel, Vue.js, and more.' },
-    { name: 'keywords', content: 'portfolio, projects, web development, software engineer, Python, Django, Laravel, Vue.js' },
-    { property: 'og:title', content: 'Portfolio of Islam Samy - Software Engineer' },
-    { property: 'og:description', content: 'Explore the portfolio of Islam Samy, a software engineer specializing in web development. View projects developed using various technologies such as Python, Django, Laravel, Vue.js, and more.' },
+    { name: 'description', content: 'Explore client success stories from Islam Samy. Real estate portals, corporate intranets, ERP systems, and education platforms built with Laravel, Golang, Vue.js, and cloud infrastructure.' },
+    { name: 'keywords', content: 'Islam Samy, case studies, client projects, real estate, ERP, education, Laravel, cloud infrastructure, Dubai' },
+    { property: 'og:title', content: 'Case Studies — Islam Samy' },
+    { property: 'og:description', content: 'Client success stories across real estate, corporate, ERP, and education platforms.' },
     { property: 'og:type', content: 'website' },
     { property: "og:url", content: config.public.appUrl + "/portfolio" },
     {
       property: "og:image",
       content: config.public.appUrl + "/images/profile.jpg",
-    }, // Replace with your actual image URL
+    },
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: "Portfolio of Islam Samy - Software Engineer" },
+    { name: "twitter:title", content: "Case Studies — Islam Samy" },
     {
       name: "twitter:description",
       content:
-        "Specialized in web development using Laravel, Golang, Nuxt.js, and Vue.js.",
+        "Client success stories across real estate, corporate, ERP, and education platforms.",
     },
     {
       name: "twitter:image",
@@ -27,7 +27,7 @@ useHead({
     { name: "twitter:site", content: "@zolom214" },
     { name: "twitter:creator", content: "@zolom214" },
   ],
-  link: [{ rel: "canonical", href: config.public.appUrl + "/services" }],
+  link: [{ rel: "canonical", href: config.public.appUrl + "/portfolio" }],
 });
 </script>
 <template>

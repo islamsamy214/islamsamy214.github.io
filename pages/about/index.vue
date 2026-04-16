@@ -1,23 +1,23 @@
 <script setup>
 const config = useRuntimeConfig();
 useHead({
-  title: "About Islam Samy - Software Engineer",
+  title: "About Islam Samy — DevOps & Software Engineering",
   meta: [
     {
       name: "description",
       content:
-        "Learn more about Islam Samy, a software engineer specialized in web development using Laravel, Golang, Nuxt.js, and Vue.js. Based in Dubai, UAE.",
+        "Islam Samy — DevOps and software engineering consultancy. Cloud infrastructure, CI/CD automation, Kubernetes, and scalable backend systems. Based in Dubai, UAE.",
     },
     {
       name: "keywords",
       content:
-        "About Islam Samy, software engineer, web development, Laravel, Golang, Nuxt.js, Vue.js, Dubai, UAE",
+        "Islam Samy, DevOps consultancy, cloud infrastructure, CI/CD, Kubernetes, Dubai, UAE",
     },
-    { property: "og:title", content: "About Islam Samy - Software Engineer" },
+    { property: "og:title", content: "About Islam Samy — DevOps & Software Engineering" },
     {
       property: "og:description",
       content:
-        "Learn more about Islam Samy, a software engineer specialized in web development using Laravel, Golang, Nuxt.js, and Vue.js.",
+        "Cloud infrastructure, CI/CD automation, and scalable software engineering consultancy. Based in Dubai, UAE.",
     },
     { property: "og:type", content: "website" },
     { property: "og:url", content: config.public.appUrl + "/about" },
@@ -26,11 +26,11 @@ useHead({
       content: config.public.appUrl + "/images/profile.jpg",
     }, // Replace with your actual image URL
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: "About Islam Samy - Software Engineer" },
+    { name: "twitter:title", content: "About Islam Samy — DevOps & Software Engineering" },
     {
       name: "twitter:description",
       content:
-        "Specialized in web development using Laravel, Golang, Nuxt.js, and Vue.js.",
+        "Cloud infrastructure, CI/CD automation, and scalable software engineering consultancy. Based in Dubai, UAE.",
     },
     {
       name: "twitter:image",
@@ -48,6 +48,7 @@ useHead({
     <AboutBackground />
     <AboutHero />
     <AboutProfile />
+    <AboutWhyChooseUs />
     <AboutExperience />
     <AboutEducation />
     <AboutCertifications />

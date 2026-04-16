@@ -1,6 +1,7 @@
 <script setup></script>
 <template>
-  <div class="flex flex-col gap-4 md:gap-8">
+  <div class="flex flex-col gap-4 md:gap-8 xl:px-36">
+    <h3 class="text-xl md:text-3xl text-white font-bold">Technical Capabilities</h3>
     <ul
       class="list-disc list-outside text-lg md:text-xl flex flex-col gap-4 md:gap-6 px-4"
     >
@@ -103,8 +104,8 @@
       </li>
       <li>
         <p>
-          Competent in <span>UI/UX</span> and <span>Graphic Design</span> —
-          also a personal hobby — using <span>Adobe Illustrator</span>,
+          Competent in <span>UI/UX</span> and <span>Graphic Design</span>
+          using <span>Adobe Illustrator</span>,
           <span>Adobe Photoshop</span>, and <span>Adobe XD</span> to bring
           creative ideas to life.
         </p>

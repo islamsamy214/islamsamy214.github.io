@@ -12,13 +12,6 @@ const { profile } = useProfile();
       <Icon name="mdi:github" size="30" />
     </a>
     <a
-      :href="profile.links.buymeacoffee"
-      target="_blank"
-      class="bg-gray-800 p-2 rounded-full h-14 w-14 flex justify-center items-center text-white hover:text-emerald-500 transition-all"
-    >
-      <Icon name="simple-icons:buymeacoffee" size="30" />
-    </a>
-    <a
       :href="profile.links.linkedin"
       target="_blank"
       class="bg-gray-800 p-2 rounded-full h-14 w-14 flex justify-center items-center text-white hover:text-emerald-500 transition-all"

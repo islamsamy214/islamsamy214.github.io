@@ -5,10 +5,10 @@ const { homeProjects: projects } = useProjects();
 <template>
   <div class="flex flex-col items-center justify-center min-h-32 md:min-h-48 gap-4">
     <span class="tracking-widest uppercase text-gray-400 text-lg md:text-xl"
-      >Portfolio</span
+      >Case Studies</span
     >
     <h2 class="text-2xl md:text-5xl text-white font-bold text-center mx-4">
-      Checkout a few of my projects
+      Client Success Stories
     </h2>
   </div>
   <div class="flex flex-col items-center justify-center gap-4">
@@ -23,7 +23,7 @@ const { homeProjects: projects } = useProjects();
     <nuxt-link
       to="/portfolio"
       class="text-white font-bold text-xl hover:text-emerald-500 transition-all"
-      >Explore more ...</nuxt-link
+      >View all case studies</nuxt-link
     >
   </div>
 </template>

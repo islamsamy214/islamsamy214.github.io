@@ -1,24 +1,24 @@
 <script setup>
 const config = useRuntimeConfig();
 useHead({
-  title: 'Contact Islam Samy - Software Engineer',
+  title: 'Contact — Islam Samy',
   meta: [
-    { name: 'description', content: 'Contact Islam Samy, a software engineer specializing in web development, for inquiries, collaborations, or any other queries.' },
-    { name: 'keywords', content: 'contact, Islam Samy, software engineer, web development, collaborations, inquiries' },
-    { property: 'og:title', content: 'Contact Islam Samy - Software Engineer' },
-    { property: 'og:description', content: 'Contact Islam Samy, a software engineer specializing in web development, for inquiries, collaborations, or any other queries.' },
+    { name: 'description', content: 'Book a consultation with Islam Samy. DevOps and software engineering consultancy based in Dubai, UAE.' },
+    { name: 'keywords', content: 'contact, Islam Samy, DevOps consultancy, book consultation, Dubai, UAE' },
+    { property: 'og:title', content: 'Contact — Islam Samy' },
+    { property: 'og:description', content: 'Book a consultation with Islam Samy. DevOps and software engineering consultancy based in Dubai, UAE.' },
     { property: 'og:type', content: 'website' },
     { property: "og:url", content: config.public.appUrl + "/contact" },
     {
       property: "og:image",
       content: config.public.appUrl + "/images/profile.jpg",
-    }, // Replace with your actual image URL
+    },
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: "Contact Islam Samy - Software Engineer" },
+    { name: "twitter:title", content: "Contact — Islam Samy" },
     {
       name: "twitter:description",
       content:
-        "Specialized in web development using Laravel, Golang, Nuxt.js, and Vue.js.",
+        "Book a consultation with Islam Samy. DevOps and software engineering consultancy based in Dubai, UAE.",
     },
     {
       name: "twitter:image",
