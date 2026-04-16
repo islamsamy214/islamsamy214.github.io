@@ -3,7 +3,7 @@ const { projects } = useProjects();
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-center gap-4">
+  <div class="flex flex-col gap-8">
     <SharedProjectCard
       v-for="(project, index) in projects"
       :key="project.title"

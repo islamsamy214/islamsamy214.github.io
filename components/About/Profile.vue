@@ -4,13 +4,13 @@ const { profile } = useProfile();
 <template>
   <div class="flex flex-col gap-4 md:gap-8 xl:px-36">
     <div class="flex flex-col gap-4 md:gap-8">
-      <h3 class="text-xl md:text-3xl text-white font-bold">What I Bring to the Table</h3>
+      <h3 class="font-heading text-xl md:text-3xl text-white font-bold">What I Bring to the Table</h3>
       <h4 class="text-lg md:text-xl">
         {{ profile.header }}
       </h4>
       <p class="text-gray-400 text-lg md:text-xl">{{ profile.description }}</p>
     </div>
-    <div class="flex flex-col gap-2 md:gap-4">
+    <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 flex flex-col gap-3">
       <div class="info-contianer">
         <span>Principal Consultant: </span>
         <p>{{ profile.name }}</p>

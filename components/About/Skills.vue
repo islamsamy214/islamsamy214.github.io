@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="flex flex-col gap-4 md:gap-8 xl:px-36">
-    <h3 class="text-xl md:text-3xl text-white font-bold">Technical Capabilities</h3>
+    <h3 class="font-heading text-xl md:text-3xl text-white font-bold">Technical Capabilities</h3>
     <ul
       class="list-disc list-outside text-lg md:text-xl flex flex-col gap-4 md:gap-6 px-4"
     >

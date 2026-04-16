@@ -16,7 +16,8 @@ export default {
       widest: ".4em",
     },
     fontFamily: {
-      sans: ["Poppins", "Arial", "sans-serif"],
+      sans: ["Inter", "Arial", "sans-serif"],
+      heading: ["Space Grotesk", "Inter", "sans-serif"],
     },
     fontSize: {
       xs: ".75rem",

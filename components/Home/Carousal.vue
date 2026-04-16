@@ -34,7 +34,7 @@ onMounted(() => {
     <transition name="slide-fade" mode="out-in">
       <h2
         :key="currentIndex + '-content'"
-        class="uppercase text-xl md:text-5xl text-white font-bold"
+        class="font-heading uppercase text-xl md:text-5xl font-bold bg-gradient-to-r from-emerald-400 via-emerald-300 to-teal-400 bg-clip-text text-transparent"
       >
         {{ headers[currentIndex].content }}
       </h2>
