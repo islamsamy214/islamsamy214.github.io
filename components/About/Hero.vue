@@ -11,7 +11,7 @@ const { profile } = useProfile();
       />
     </div>
     <div class="md:w-1/2 min-h-full flex flex-col gap-8">
-      <h1 class="font-heading text-3xl md:text-5xl font-light md:mb-8">
+      <h1 class="font-heading text-3xl md:text-5xl font-semibold md:mb-8">
         Hey, I'm {{ profile.name }}
       </h1>
       <p class="text-gray-400 text-lg md:text-xl">

@@ -5,18 +5,18 @@ useHead({
     {
       name: "description",
       content:
-        "Islam Samy — DevOps and software engineering consultancy based in Dubai, UAE. Cloud infrastructure, CI/CD automation, Kubernetes, Laravel, and Golang.",
+        "Islam Samy — Full-stack software engineer and DevOps specialist based in Dubai. Laravel, Golang, Nuxt.js, Vue.js, Azure, AWS, Kubernetes.",
     },
     {
       name: "keywords",
       content:
-        "Islam Samy, DevOps consultancy, cloud infrastructure, CI/CD automation, Kubernetes, Laravel, Golang, Dubai, UAE",
+        "Islam Samy, software engineer, full-stack developer, DevOps, Laravel, Golang, Nuxt.js, Vue.js, Kubernetes, Azure, AWS, Dubai, UAE",
     },
-    { property: "og:title", content: "Islam Samy — DevOps & Software Engineering" },
+    { property: "og:title", content: "Islam Samy — Software Engineer & DevOps" },
     {
       property: "og:description",
       content:
-        "Cloud infrastructure, CI/CD automation, and scalable software engineering. Based in Dubai, UAE.",
+        "Full-stack engineer building backends, frontends, and cloud infrastructure. Based in Dubai, UAE.",
     },
     { property: "og:type", content: "website" },
     { property: "og:url", content: config.public.appUrl },
@@ -25,11 +25,11 @@ useHead({
       content: config.public.appUrl + "/images/profile.jpg",
     },
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: "Islam Samy — DevOps & Software Engineering" },
+    { name: "twitter:title", content: "Islam Samy — Software Engineer & DevOps" },
     {
       name: "twitter:description",
       content:
-        "Cloud infrastructure, CI/CD automation, and scalable software engineering. Based in Dubai, UAE.",
+        "Full-stack engineer building backends, frontends, and cloud infrastructure. Based in Dubai, UAE.",
     },
     {
       name: "twitter:image",

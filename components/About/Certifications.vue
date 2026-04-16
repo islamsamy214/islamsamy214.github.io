@@ -11,7 +11,7 @@ const { certifications } = useProfile();
     >
       <div class="flex gap-2 justify-between items-center">
         <div class="flex gap-2 flex-wrap">
-          <h4>
+          <h4 class="font-heading font-semibold">
             <a
               v-if="certification.link"
               :href="certification.link"
@@ -23,7 +23,7 @@ const { certifications } = useProfile();
             <template v-else>{{ certification.title }}</template>
           </h4>
           <span>-</span>
-          <h5>
+          <h5 class="text-base md:text-lg">
             {{ certification.institution }}
           </h5>
         </div>

@@ -27,9 +27,9 @@ const isEven = ref((index + 1) % 2 === 0);
     </div>
 
     <div class="md:w-1/2 min-h-full flex flex-col gap-4">
-      <h5 class="uppercase tracking-wide text-gray-400 text-sm">
+      <span class="uppercase tracking-wider text-gray-400 text-sm">
         {{ project.category }}
-      </h5>
+      </span>
       <h3 class="font-heading text-2xl font-bold">{{ project.title }}</h3>
       <p class="text-gray-400 text-sm md:text-base">
         {{ project.description }}

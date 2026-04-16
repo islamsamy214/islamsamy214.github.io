@@ -1,7 +1,7 @@
 <script setup>
 const config = useRuntimeConfig();
 useHead({
-  title: "Islam Samy — DevOps & Software Engineering",
+  title: "Islam Samy — Software Engineer & DevOps",
   link: [
     {
       rel: "icon",
@@ -25,7 +25,7 @@ useHead({
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         name: "Islam Samy",
-        description: "DevOps and software engineering consultancy based in Dubai, UAE",
+        description: "Full-stack software engineer and DevOps specialist based in Dubai, UAE",
         founder: {
           "@type": "Person",
           name: "Islam Samy",

@@ -1,23 +1,23 @@
 <script setup>
 const config = useRuntimeConfig();
 useHead({
-  title: "About Islam Samy — DevOps & Software Engineering",
+  title: "About Islam Samy — Software Engineer & DevOps",
   meta: [
     {
       name: "description",
       content:
-        "Islam Samy — DevOps and software engineering consultancy. Cloud infrastructure, CI/CD automation, Kubernetes, and scalable backend systems. Based in Dubai, UAE.",
+        "Islam Samy — Full-stack software engineer and DevOps specialist. Backend, frontend, and cloud infrastructure. Based in Dubai, UAE.",
     },
     {
       name: "keywords",
       content:
-        "Islam Samy, DevOps consultancy, cloud infrastructure, CI/CD, Kubernetes, Dubai, UAE",
+        "Islam Samy, software engineer, full-stack, DevOps, Laravel, Golang, Vue.js, Nuxt.js, Dubai, UAE",
     },
-    { property: "og:title", content: "About Islam Samy — DevOps & Software Engineering" },
+    { property: "og:title", content: "About Islam Samy — Software Engineer & DevOps" },
     {
       property: "og:description",
       content:
-        "Cloud infrastructure, CI/CD automation, and scalable software engineering consultancy. Based in Dubai, UAE.",
+        "Full-stack engineer building backends, frontends, and cloud infrastructure. Based in Dubai, UAE.",
     },
     { property: "og:type", content: "website" },
     { property: "og:url", content: config.public.appUrl + "/about" },
@@ -26,11 +26,11 @@ useHead({
       content: config.public.appUrl + "/images/profile.jpg",
     }, // Replace with your actual image URL
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: "About Islam Samy — DevOps & Software Engineering" },
+    { name: "twitter:title", content: "About Islam Samy — Software Engineer & DevOps" },
     {
       name: "twitter:description",
       content:
-        "Cloud infrastructure, CI/CD automation, and scalable software engineering consultancy. Based in Dubai, UAE.",
+        "Full-stack engineer building backends, frontends, and cloud infrastructure. Based in Dubai, UAE.",
     },
     {
       name: "twitter:image",

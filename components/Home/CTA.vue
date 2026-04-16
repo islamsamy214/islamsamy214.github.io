@@ -1,10 +1,10 @@
 <template>
   <div v-reveal class="flex flex-col items-center justify-center gap-6 py-16">
     <h3 class="font-heading text-2xl md:text-4xl font-bold text-center bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-      Got a problem? Let's talk about it.
+      Need something built? Let's talk.
     </h3>
     <p class="text-gray-400 text-center max-w-xl">
-      No sales pitch. Tell me what's broken or what you're trying to build, and I'll tell you straight if I can help.
+      Backend, frontend, infrastructure — or all three. No sales pitch. Tell me what you need and I'll tell you straight if I can help.
     </p>
     <nuxt-link
       to="/contact"

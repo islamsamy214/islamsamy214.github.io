@@ -43,7 +43,7 @@ watchEffect(() => {
         <li class="mb-4" v-for="page in pages" :key="page.title">
           <nuxt-link
             :to="page.link"
-            class="text-2xl cursor-pointer hover:text-emerald-500 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-emerald-500 after:transition-all after:duration-300 hover:after:w-full"
+            class="font-heading text-2xl font-semibold cursor-pointer hover:text-emerald-500 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-emerald-500 after:transition-all after:duration-300 hover:after:w-full"
             :class="{ 'text-emerald-500 after:w-full': page.active }"
             >{{ page.title }}</nuxt-link
           >

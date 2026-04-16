@@ -1,7 +1,7 @@
 <template>
   <div ref="metricsRef" class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center py-12">
     <div v-for="(metric, i) in metrics" :key="metric.label" class="flex flex-col gap-2">
-      <span class="text-4xl md:text-5xl font-bold text-emerald-500">{{ animatedValues[i] }}{{ metric.suffix }}</span>
+      <span class="font-heading text-4xl md:text-5xl font-bold text-emerald-500">{{ animatedValues[i] }}{{ metric.suffix }}</span>
       <span class="text-gray-400 uppercase tracking-wider text-sm">{{ metric.label }}</span>
     </div>
   </div>

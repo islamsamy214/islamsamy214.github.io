@@ -10,7 +10,7 @@ const { whyChooseUs } = useProfile();
         :key="item.title"
         class="flex flex-col gap-3 p-6 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl transition-all duration-300 hover:bg-white/10 hover:border-emerald-500/30 hover:shadow-[0_0_30px_rgba(16,185,129,0.15)]"
       >
-        <h4 class="text-lg md:text-xl text-emerald-500 font-semibold">
+        <h4 class="font-heading text-lg md:text-xl text-emerald-500 font-semibold">
           {{ item.title }}
         </h4>
         <p class="text-gray-400">

@@ -11,11 +11,11 @@ const { experiences } = useProfile();
     >
       <div class="flex gap-2 justify-between items-center">
         <div class="flex gap-2">
-          <h4>
+          <h4 class="font-heading font-semibold">
             {{ experience.title }}
           </h4>
           <span>-</span>
-          <h5>
+          <h5 class="text-base md:text-lg">
             {{ experience.company }}
           </h5>
         </div>
@@ -25,11 +25,11 @@ const { experiences } = useProfile();
           </span>
         </div>
       </div>
-      <div>
+      <!-- <div>
         <span>
           {{ experience.location }}
         </span>
-      </div>
+      </div> -->
       <ul
         v-if="experience.bullets?.length"
         class="list-disc list-outside pl-6 flex flex-col gap-2 text-base md:text-lg"

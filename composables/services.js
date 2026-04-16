@@ -53,9 +53,9 @@ export const useServices = () => {
     });
 
     const homeServices = ref([
-        services.value[0],
-        services.value[1],
         services.value[3],
+        services.value[7],
+        services.value[0],
     ]);
 
     return { services, homeServices };

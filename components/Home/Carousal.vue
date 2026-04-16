@@ -2,9 +2,9 @@
 import { reactive, ref, onMounted } from "vue";
 
 const headers = reactive([
-  { title: "Your infra shouldn't", content: "Keep You Up at Night" },
-  { title: "Ship faster.", content: "Break Less." },
-  { title: "I'm Islam Samy.", content: "I Fix What's Broken." },
+  { title: "I build backends that", content: "Handle Real Traffic" },
+  { title: "I ship frontends that", content: "Users Actually Like" },
+  { title: "I run infrastructure that", content: "Doesn't Break at 2am" },
 ]);
 const currentIndex = ref(0);
 
@@ -20,12 +20,12 @@ onMounted(() => {
 
 <template>
   <div
-    class="flex flex-col items-center justify-center tracking-wider md:tracking-widest gap-4 min-h-screen"
+    class="flex flex-col items-center justify-center gap-4 min-h-screen"
   >
     <transition name="slide-fade" mode="out-in">
       <span
         :key="currentIndex + '-title'"
-        class="uppercase text-gray-400 md:text-xl"
+        class="uppercase tracking-wider text-gray-400 md:text-xl"
       >
         {{ headers[currentIndex].title }}
       </span>

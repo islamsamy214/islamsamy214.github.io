@@ -12,13 +12,13 @@ const { profile } = useProfile();
     </div>
     <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 flex flex-col gap-3">
       <div class="info-contianer">
-        <span>Principal Consultant: </span>
+        <span>Name: </span>
         <p>{{ profile.name }}</p>
       </div>
-      <div class="info-contianer">
-        <span>Headquarters: </span>
+      <!-- <div class="info-contianer">
+        <span>Based in: </span>
         <p>{{ profile.address }}</p>
-      </div>
+      </div> -->
       <div class="info-contianer">
         <span>Email: </span>
         <a
@@ -27,7 +27,7 @@ const { profile } = useProfile();
           >{{ profile.email }}</a
         >
       </div>
-      <div class="info-contianer">
+      <!-- <div class="info-contianer">
         <span>Phone: </span>
         <a
           :href="'tel:' + profile.phoneNumber"
@@ -42,7 +42,7 @@ const { profile } = useProfile();
           :title="'Call ' + profile.altPhoneNumber + ' directly'"
           >{{ profile.altPhone }}</a
         >
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

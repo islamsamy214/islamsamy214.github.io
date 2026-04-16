@@ -4,7 +4,7 @@ const { openMenu } = useMenu();
 
 <template>
   <header class="p-4 flex justify-between items-center">
-    <h1 class="font-heading uppercase text-2xl tracking-wider hover:text-emerald-500 transition-colors duration-300 cursor-pointer">Islam Samy</h1>
+    <h1 class="font-heading font-bold uppercase text-2xl tracking-wider hover:text-emerald-500 transition-colors duration-300 cursor-pointer">Islam Samy</h1>
     <span>
       <Icon
         name="mdi-light:menu"
