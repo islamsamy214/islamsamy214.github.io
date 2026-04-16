@@ -45,6 +45,45 @@ useHead({
         ],
       }),
     },
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: "Islam Samy — Software Engineer & DevOps",
+        url: config.public.appUrl,
+        description: "Full-stack software engineer and DevOps specialist based in Dubai, UAE",
+        inLanguage: "en",
+      }),
+    },
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Islam Samy",
+        jobTitle: "Full-Stack Software Engineer & DevOps Specialist",
+        url: config.public.appUrl,
+        image: config.public.appUrl + "/images/profile.jpg",
+        email: "mailto:islamsamy214@gmail.com",
+        telephone: "+971505416038",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Dubai",
+          addressCountry: "UAE",
+        },
+        knowsAbout: [
+          "Laravel", "Golang", "Nuxt.js", "Vue.js",
+          "Kubernetes", "Azure", "AWS", "Terraform",
+          "CI/CD", "Docker", "Microservices",
+        ],
+        sameAs: [
+          "https://github.com/islamsamy214",
+          "https://www.linkedin.com/in/islamsamy214/",
+          "https://wa.me/+971505416038",
+        ],
+      }),
+    },
   ],
 });
 </script>

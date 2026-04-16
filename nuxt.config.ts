@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
+      titleTemplate: "%s | Islam Samy",
     },
   },
   devtools: { enabled: true },
@@ -26,6 +27,14 @@ export default defineNuxtConfig({
     gzip: true,
     routes: async () => {
       return ["/", "/about", "/contact", "/portfolio", "/services"];
+    },
+  },
+
+  sitemap: {
+    defaults: {
+      changefreq: "monthly",
+      priority: 0.8,
+      lastmod: new Date().toISOString(),
     },
   },
 
